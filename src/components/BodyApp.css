@@ -1,0 +1,20 @@
+.ul-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.ul-list-a, .ul-list-b {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-vrv, .section-inverter, .section-eficiencia {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.div-vrv {
+    display: flex;
+    flex-direction: column;
+}
