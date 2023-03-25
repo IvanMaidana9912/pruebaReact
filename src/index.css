@@ -1,33 +1,39 @@
 .App {
-    text-align: center;
-  }
-  
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
-  
-  
-  .classFooter {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* .classFooter {
     display: flex;
-  }
-  
-  .classFooter1 {
-  
-    inline-size: -webkit-fill-available;
-    z-index: -1;
-  }
-  
-  .classFooter2 {
-    position: absolute;
-     z-index: 1;
-  } 
+  } */
+.classFooter {
+  width: 1295px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.classFooter1 {
+  inline-size: -webkit-fill-available;
+  z-index: -1;
+  width: 1295px;
+}
+
+.classFooter2 {
+  width: 55px;
+}
