@@ -44,9 +44,13 @@ code {
   box-shadow: inset -33px -33px 100px -29px #1184f7;
 }
 
+#itemContainer:active {
+  box-shadow: inset -33px -33px 100px -29px #0a4b8c;
+}
+
 #idCard {
-  padding-bottom: 3px !important;
-  padding-top: 15px !important;
+  padding-bottom: 3px ;
+  padding-top: 15px ;
 }
 
 .paraphStyle {
