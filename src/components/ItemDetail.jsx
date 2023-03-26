@@ -21,15 +21,18 @@ const ItemDetail = ({ items }) => {
                                 <li key={item}>{item}</li>
                             })}
                         </ul>
-                        <Link className="card-text" src={items.catalogo}>Descargar Catálogo</Link>
+                        {
+                            items.catalogo ? <Link className="card-text" src={items.catalogo}>Descargar Catálogo</Link>: ""
+                        }
+                        <Link className="card-text" src={items.catalogo}>Fijate áca si anda</Link>
                     </div>
                 </div>
             </div>
             <Images itemImg={items} />
             <div>
                 {
-                    ResidencialJson.map(cositas =>
-                        cositas.subId === items.id ? <Treeid identification={cositas} /> : ""
+                    ResidencialJson.map(subId =>
+                        subId.subId === items.id ? <Treeid identification={subId} /> : ""
                     )
                 }
             </div>

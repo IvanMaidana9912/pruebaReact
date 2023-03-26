@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
 import ResidencialJson from "./json/residencial.json";
-import Loading from "./loading";
+import Loading from "./Loading";
 
 const ItemDetailContainer = () => {
     const [item, setItem] = useState({});

@@ -108,7 +108,7 @@
         "subId": "6",
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/mini-chiller-A4-Agosto-2022-online.pdf",
         "img": [
-            "/img/Residencial/0600.jpeg"
+            "/img/Residencial/id0600.jpg"
         ],
         "detalle": [
             "Máxima eficiencia y cuidado del medio ambiente. Equipos sin emisión de gases contaminantes.",
@@ -131,7 +131,7 @@
         "slogan": "",
         "catalogo": "",
         "img": [
-            "/img/Residencial/0601.jpeg"
+            "/img/Residencial/id0601.jpeg"
         ],
         "detalle": [
             "El silencio es Confort",
@@ -149,7 +149,6 @@
         "titulo": "Fan Coil de conductos",
         "slogan": "Máxima eficiencia ocupando el menor espacio posible. Sus unidades, extremadamente silenciosas, se adaptan con facilidad a cualquier ambiente.",
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/fancoil-A4-agosto-2022-online.pdf",
-        "img": [],
         "detalle": [
             "Diseño delgado, tienen solo 24cm de alto, es la solución ideal para espacios reducidos.",
             "Climatización invisible empotrable en cieloraso.",
@@ -176,7 +175,7 @@
         ]
     },
     {
-        "id": "7.1",
+        "subId": "7",
         "img": [
             "/img/Comercial/id2-4.jpg"
         ],
@@ -189,7 +188,7 @@
         ]
     },
     {
-        "id": "7.2",
+        "subId": "7",
         "img": [
             "/img/Comercial/id2-5.png"
         ],
@@ -205,7 +204,7 @@
         ]
     },
     {
-        "id": "7.3",
+        "subId": "7",
         "img": [
             "/img/Comercial/id2-6.jpg"
         ],
@@ -220,8 +219,8 @@
         ]
     },
     {
-        "id": "7.4",
-        "img": "Mantenimiento sencillo.",
+        "subId": "6",
+       
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
         "detalle": [
             "Piso Techo Inverter",
@@ -247,7 +246,7 @@
         ]
     },
     {
-        "id": "8.1",
+        "subId": "8",
         "img": [
             "/img/Comercial/id2-5.png"
         ],
@@ -262,7 +261,7 @@
         ]
     },
     {
-        "id": "8.2",
+        "subId": "8",
         "img": [
             "/img/Comercial/id2-6.jpg"
         ],
@@ -278,7 +277,7 @@
         ]
     },
     {
-        "id": "8.3",
+        "subId": "8",
         "img": [
             "/img/Comercial/id2-3.jpg"
         ],
@@ -303,21 +302,21 @@
         ]
     },
     {
-        "id": "9.1",
+        "subId": "9",
         "detalle": [
             "Separados comerciales",
             "Equipos frío calor por bomba con condensadoras modulares (6-50tr). Refrigerante R-407c."
         ]
     },
     {
-        "id": "9.2",
+        "subId": "9",
         "detalle": [
             "Rooftop a gas",
             "Unidades frío calor por gas con refrigerante R-410a (7.5-20tr)."
         ]
     },
     {
-        "id": "9.3",
+        "subId": "9",
         "detalle": [
             "Rooftop heat pump",
             "Unidades frío calor por bomba con refrigerante R-407c (7-35tr) y con refrigerante R-410a (8-22tr)."
