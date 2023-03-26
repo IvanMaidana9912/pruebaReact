@@ -5,9 +5,9 @@ const Treeid = ({ identification }) => {
 
     return (
 
-        <div className="card mb-3 pt-xl-5">
+        <div className="card mb-3 p-xl-5 bg-dark" id="cardsSecundaries">
             <div className="row g-0">
-                <div className="col-md-4">
+                <div className="col-md-4 bg-white">
                     {
                         identification.img ? <img src={identification.img[0]} className="img-fluid rounded-start" alt={identification.titulo} /> : ""
                     }
@@ -26,9 +26,11 @@ const Treeid = ({ identification }) => {
                                 <li key="{item}">{item}</li>
                             )}
                         </ul>
-                        {
-                            identification.catalogo ? <Link className="card-text" src={identification.catalogo}>Descargar Catálogo</Link> : ""
-                        }
+                        <div className="d-flex justify-content-center">
+                            {
+                                identification.catalogo ? <Link className="card-text" id="catalogoLink" src={identification.catalogo}>Descargar Catálogo</Link>: ""
+                            }
+                        </div>
                     </div>
                 </div>
             </div>

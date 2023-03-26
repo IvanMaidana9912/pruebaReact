@@ -10,7 +10,7 @@ const Images = ({ itemImg }) => {
                 </div>
                 <div className="col-md-4 d-flex w-100 ">
                     {
-                        itemImg.subImg ? itemImg.subImg.map(img => <img key={img} className="img-fluid rounded-start" src={img} alt={"image"} />) : ""
+                        itemImg.subImg ? itemImg.subImg.map(img => <img key={img}  className="img-fluid rounded-start m-2" src={img} alt={"image"} />) : ""
                     }
                 </div>
             </div>

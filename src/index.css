@@ -25,7 +25,7 @@ code {
 }
 
 .classFooter3 {
-  padding-top: 150px;
+  margin-top: 150px;
 }
 
 .classFooter1 {
@@ -41,7 +41,7 @@ code {
 #itemContainer {
   width: 230px;
   height: 430px;
-  padding-top: 25px;
+  margin-top: 25px;
   transition: 400ms;
 }
 
@@ -55,22 +55,26 @@ code {
 }
 
 #idCardTitle {
-  padding-bottom: 3px ;
-  padding-top: 15px ;
-}
-
-#idCardSlogan {
-  text-align: left;
-  padding-left: 5px;
+  margin-bottom: 3px;
+  margin-top: 15px;
 }
 
 .paraphStyle {
   font-size: 3rem;
   text-align: center;
-  padding-bottom: 150px;
-  padding-top: 30px;
+  margin-bottom: 150px;
+  margin-top: 30px;
 }
 
 .container {
   min-height: 100vh;
+}
+
+#cardsSecundaries {
+  color: white;
+}
+
+#catalogoLink {
+  text-decoration: none;
+  color: white
 }
