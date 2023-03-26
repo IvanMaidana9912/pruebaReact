@@ -40,7 +40,7 @@ code {
 
 #itemContainer {
   width: 230px;
-  /* height: 547px; */
+  height: 430px;
   padding-top: 25px;
   transition: 400ms;
 }
