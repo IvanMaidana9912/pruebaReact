@@ -24,6 +24,10 @@ code {
   justify-content: space-between;
 }
 
+.classFooter3 {
+  padding-top: 150px;
+}
+
 .classFooter1 {
   inline-size: -webkit-fill-available;
   z-index: -1;

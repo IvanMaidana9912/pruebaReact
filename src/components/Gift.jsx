@@ -2,7 +2,7 @@ import React from "react";
 
 const Gift = () => {
     return (
-        <div>
+        <div className="classFooter3">
             <div className="classFooter">
                 <div>
                     <img className="classFooter2" src={"../../public/img/animation/animation1.gif"} alt={"animation"} />
