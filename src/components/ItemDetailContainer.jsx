@@ -26,7 +26,7 @@ const ItemDetailContainer = () => {
     return (
         <div>
             <div className="container">
-                {loading ? <Loading /> : <ItemDetail item={item} />}
+                {loading ? <Loading /> : <ItemDetail items={item} />}
             </div>
         </div>
     )

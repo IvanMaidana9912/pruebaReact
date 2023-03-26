@@ -105,7 +105,7 @@
         ]
     },
     {
-        "id": "6.1",
+        "subId": "6",
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/mini-chiller-A4-Agosto-2022-online.pdf",
         "img": [
             "/img/Residencial/0600.jpeg"
@@ -126,7 +126,10 @@
         ]
     },
     {
-        "id": "6.2",
+        "subId": "6",
+        "titulo": "",
+        "slogan": "",
+        "catalogo": "",
         "img": [
             "/img/Residencial/0601.jpeg"
         ],
@@ -142,10 +145,11 @@
         ]
     },
     {
-        "id": "6.3",
+        "subId": "6",
         "titulo": "Fan Coil de conductos",
         "slogan": "Máxima eficiencia ocupando el menor espacio posible. Sus unidades, extremadamente silenciosas, se adaptan con facilidad a cualquier ambiente.",
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/fancoil-A4-agosto-2022-online.pdf",
+        "img": [],
         "detalle": [
             "Diseño delgado, tienen solo 24cm de alto, es la solución ideal para espacios reducidos.",
             "Climatización invisible empotrable en cieloraso.",

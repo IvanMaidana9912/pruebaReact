@@ -1,6 +1,6 @@
 import React from 'react'
 import './BodyApp.css'
-import Carrousel from './carrousel';
+import Carrousel from './Carrousel';
 
 function BodyApp1() {
   return (
