@@ -36,4 +36,26 @@ code {
 
 #itemContainer {
   width: 230px;
+  /* height: 547px; */
+  padding-top: 25px;
+}
+
+#itemContainer:hover {
+  box-shadow: inset -33px -33px 100px -29px #1184f7;
+}
+
+#idCard {
+  padding-bottom: 3px !important;
+  padding-top: 15px !important;
+}
+
+.paraphStyle {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 150px;
+  padding-top: 30px;
+}
+
+.container {
+  min-height: 100vh;
 }

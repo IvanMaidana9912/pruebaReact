@@ -1,9 +1,11 @@
 import React from 'react'
 import './BodyApp.css'
+import Carrousel from './carrousel';
 
 function BodyApp1() {
   return (
     <>
+    < Carrousel />
     <section className='section-inverter'>
     <picture>
       <img className='img' src="..\..\img\home\tecnologia-inverter.jpg" alt='papa' />

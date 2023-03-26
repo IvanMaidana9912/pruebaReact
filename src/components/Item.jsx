@@ -8,7 +8,7 @@ const Item = ( {item} ) => {
             <div className="card border border-0 card-body text-center" id="itemContainer">
                 <Images itemImg={item}/>
                 <div >
-                    <p className="card-text">{item.titulo}</p>
+                    <p className="card-text" id="idCard"><b>{item.titulo}</b></p>
                     <p className="card-text">{item.slogan}</p>
                 </div>
             </div>

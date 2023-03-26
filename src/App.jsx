@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './components/NavBar';
-import Carrousel from './components/carrousel';
+
 import Footer from './components/Footer';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import BodyApp1 from './components/BodyApp1';
@@ -15,7 +15,6 @@ function App() {
     < BrowserRouter>
       <div className='container'>
         < Nav />
-        < Carrousel />
         < Routes>
           <Route path={"/"} element={< BodyApp1 />}/>
           <Route path={"/category/:id"} element={<ItemListContainer />} />

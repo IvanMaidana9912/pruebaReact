@@ -110,7 +110,6 @@
         "img": [
             "/img/Residencial/0600.jpeg"
         ],
-        
         "detalle": [
             "Máxima eficiencia y cuidado del medio ambiente. Equipos sin emisión de gases contaminantes.",
             "Máxima eficiencia con combustión 0%.",
@@ -128,7 +127,6 @@
     },
     {
         "id": "6.2",
-        
         "img": [
             "/img/Residencial/0601.jpeg"
         ],
@@ -145,7 +143,6 @@
     },
     {
         "id": "6.3",
-       
         "titulo": "Fan Coil de conductos",
         "slogan": "Máxima eficiencia ocupando el menor espacio posible. Sus unidades, extremadamente silenciosas, se adaptan con facilidad a cualquier ambiente.",
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/fancoil-A4-agosto-2022-online.pdf",
@@ -166,17 +163,16 @@
         "slogan": "No se oye. No impacta en el medio ambiente. Y asegura el clima perfecto. Descubrí la nueva generación de equipos inverter sustentables.",
         "category": "comercial",
         "img": [
-            "/img/Comercial/id2.png",
-            [
-                "/img/Comercial/id2-1.jpg",
-                "/img/Comercial/id2-2.jpg",
-                "/img/Comercial/id2-3.jpg"
-            ]
+            "/img/Comercial/id2.png"
+        ],
+        "subImg": [
+            "/img/Comercial/id2-1.jpg",
+            "/img/Comercial/id2-2.jpg",
+            "/img/Comercial/id2-3.jpg"
         ]
     },
     {
         "id": "7.1",
-        "category": "comercial",
         "img": [
             "/img/Comercial/id2-4.jpg"
         ],
@@ -190,7 +186,6 @@
     },
     {
         "id": "7.2",
-        "category": "comercial",
         "img": [
             "/img/Comercial/id2-5.png"
         ],
@@ -207,7 +202,6 @@
     },
     {
         "id": "7.3",
-        "category": "comercial",
         "img": [
             "/img/Comercial/id2-6.jpg"
         ],
@@ -223,7 +217,6 @@
     },
     {
         "id": "7.4",
-        "category": "comercial",
         "img": "Mantenimiento sencillo.",
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
         "detalle": [
@@ -241,17 +234,16 @@
         "slogan": "La línea más completa de soluciones en sistemas separados para aplicaciones comerciales.",
         "category": "comercial",
         "img": [
-            "/img/Comercial/id2-1.jpg",
-            [
-                "/img/Comercial/id2-2.jpg",
-                "/img/Comercial/id2-3.jpg",
-                "/img/Comercial/id2-7.jpeg"
-            ]
+            "/img/Comercial/id2-1.jpg"
+        ],
+        "subImg": [
+            "/img/Comercial/id2-2.jpg",
+            "/img/Comercial/id2-3.jpg",
+            "/img/Comercial/id2-7.jpeg"
         ]
     },
     {
         "id": "8.1",
-        "category": "comercial",
         "img": [
             "/img/Comercial/id2-5.png"
         ],
@@ -267,7 +259,6 @@
     },
     {
         "id": "8.2",
-        "category": "comercial",
         "img": [
             "/img/Comercial/id2-6.jpg"
         ],
@@ -284,7 +275,6 @@
     },
     {
         "id": "8.3",
-        "category": "comercial",
         "img": [
             "/img/Comercial/id2-3.jpg"
         ],
@@ -310,7 +300,6 @@
     },
     {
         "id": "9.1",
-        "category": "comercial",
         "detalle": [
             "Separados comerciales",
             "Equipos frío calor por bomba con condensadoras modulares (6-50tr). Refrigerante R-407c."
@@ -318,7 +307,6 @@
     },
     {
         "id": "9.2",
-        "category": "comercial",
         "detalle": [
             "Rooftop a gas",
             "Unidades frío calor por gas con refrigerante R-410a (7.5-20tr)."
@@ -326,7 +314,6 @@
     },
     {
         "id": "9.3",
-        "category": "comercial",
         "detalle": [
             "Rooftop heat pump",
             "Unidades frío calor por bomba con refrigerante R-407c (7-35tr) y con refrigerante R-410a (8-22tr)."
@@ -336,7 +323,9 @@
         "id": "10",
         "titulo": "Sistemas de control",
         "slogan": "La gestión de los equipos de aire nunca fue tan fácil. Descubrí el máximo nivel de control:",
-        "img": ["/img/Comercial/id2-9.png"],
+        "img": [
+            "/img/Comercial/id2-9.png"
+        ],
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-sistemas-de-control.pdf",
         "category": "comercial",
         "detalle": [
