@@ -110,7 +110,7 @@
         "img": [
             "/img/Residencial/0600.jpeg"
         ],
-        "category": "residencial",
+        
         "detalle": [
             "Máxima eficiencia y cuidado del medio ambiente. Equipos sin emisión de gases contaminantes.",
             "Máxima eficiencia con combustión 0%.",
@@ -128,7 +128,7 @@
     },
     {
         "id": "6.2",
-        "category": "residencial",
+        
         "img": [
             "/img/Residencial/0601.jpeg"
         ],
@@ -145,7 +145,7 @@
     },
     {
         "id": "6.3",
-        "category": "residencial",
+       
         "titulo": "Fan Coil de conductos",
         "slogan": "Máxima eficiencia ocupando el menor espacio posible. Sus unidades, extremadamente silenciosas, se adaptan con facilidad a cualquier ambiente.",
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/fancoil-A4-agosto-2022-online.pdf",

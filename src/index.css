@@ -16,10 +16,6 @@ code {
     monospace;
 }
 
-
-/* .classFooter {
-    display: flex;
-  } */
 .classFooter {
   width: 1295px;
   position: absolute;
@@ -36,4 +32,8 @@ code {
 
 .classFooter2 {
   width: 55px;
+}
+
+#itemContainer {
+  width: 230px;
 }
