@@ -13,38 +13,38 @@ function BodyApp1() {
     <div className='div-inverter'>
         <h5> Un nuevo concepto </h5>
         <h2>Una nueva generación <br /> de equipos de aire</h2>
-        <p>Somos expetos en aire acondicionado. Por eso, desarrollamos <br /> una opción ideal para cada tipo de aplicación</p>
+        <p>Somos expetos en aire acondicionado.<br/> Por eso, desarrollamos una opción ideal<br/> para cada tipo de aplicación.</p>
         <div className='ul-list'>
           <div className='ul-list-a'>
             <ul>
               <li>
                 {/* <a href='#'> */}
-                  Mini y Multi Split
+                  Mini y Multi Split.
                 {/* </a> */}
               </li>
               <li>
                 {/* <a href='#'> */}
-                  Cassette
+                  Cassette.
                 {/* </a> */}
               </li>
               <li>
                 {/* <a href='#'> */}
-                  Baja silueta
+                  Baja silueta.
                 {/* </a> */}
               </li>
               <li>
                 {/* <a href='#'> */}
-                  Rooftop
+                  Rooftop.
                 {/* </a> */}
               </li>
               <li>
                 {/* <a href='#'> */}
-                  Enfriadoras (chillers)
+                  Enfriadoras (chillers).
                 {/* </a> */}
               </li>
               <li>
                 {/* <a href='#'> */}
-                  Manejadoras de aire
+                  Manejadoras de aire.
                 {/* </a> */}
               </li>
             </ul>
@@ -58,27 +58,27 @@ function BodyApp1() {
                 </li>
                 <li>
                   {/* <a href='#'> */}
-                    Piso / Techo
+                    Piso / Techo.
                   {/* </a> */}
                 </li>
                 <li>
                   {/* <a href='#'> */}
-                    Calefactor
+                    Calefactor.
                   {/* </a> */}
                 </li>
                 <li>
                   {/* <a href='#'> */}
-                    Sistemas de control
+                    Sistemas de control.
                   {/* </a> */}
                 </li>
                 <li>
                   {/* <a href='#'> */}
-                    Sistemas aplicados
+                    Sistemas aplicados.
                   {/* </a> */}
                 </li>
                 <li>
                   {/* <a href='#'> */}
-                    Fan coils
+                    Fan coils.
                   {/* </a> */}
                 </li>
             </ul>
@@ -90,7 +90,7 @@ function BodyApp1() {
       <div className='div-vrv'>
         <h5> Menor consumo garantizado </h5>
         <h2>Sistemas VRV <br />para el hogar y la oficina</h2>
-        <p>Somos creadores de la tecnología VRV, la más eficiente del mercado. <br />Contamos con un modelo ideal para cada aplicación:</p>
+        <p>Somos creadores de la tecnología VRV,<br/>la más eficiente del mercado. <br />Contamos con un modelo ideal para cada aplicación:</p>
         <div className='ul-list'>
           <ul className='ul-list-a'>
             <li>
@@ -141,19 +141,19 @@ function BodyApp1() {
     <div className='div-eficiencia'>
         <h5> Departamento de servicios </h5>
         <h2>Estamos para ayudarte</h2>
-        <p>Brindamos servicios de soporte técnico a personal <br />especializado y usuarios finales</p>
+        <p>Brindamos servicios de soporte técnico<br/>a personal especializado y usuarios finales</p>
         <div className='ul-list'>
           <div className='ul-list-a'>
             <ul>
               <li>
                 <h5>
-                  Servicios generales
+                  Servicios generales.
                 </h5>
                 <h5>
-                  Repuestos
+                  Repuestos.
                 </h5>
                 <h5>
-                  Garantía oficial
+                  Garantía oficial.
                 </h5>
               </li>
             </ul>
