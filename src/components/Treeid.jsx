@@ -20,15 +20,15 @@ const Treeid = ({ identification }) => {
                         {
                             identification.slogan ? <p className="card-text">{identification.slogan}</p> : ""
                         }
-                        
+
                         <ul>
                             {identification.detalle && identification.detalle.map(item =>
-                                <li key="{item}">{item}</li>
+                                <li key={item}>{item}</li>
                             )}
                         </ul>
                         <div className="d-flex justify-content-center">
                             {
-                                identification.catalogo ? <Link className="card-text" id="catalogoLink" src={identification.catalogo}>Descargar Catálogo</Link>: ""
+                                identification.catalogo ? <Link className="card-text" id="catalogoLink" src={identification.catalogo}>Descargar Catálogo</Link> : ""
                             }
                         </div>
                     </div>

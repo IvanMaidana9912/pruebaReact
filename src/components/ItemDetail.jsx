@@ -22,7 +22,7 @@ const ItemDetail = ({ items }) => {
                         </ul>
                         <div className="d-flex justify-content-center">
                             {
-                                items.catalogo ? <Link className="card-text" src={items.catalogo}>Descargar Catálogo</Link> : ""
+                                items.catalogo ? <Link id="catalogoLinkprimary" className="card-text" src={items.catalogo}><b>Descargar Catálogo</b></Link> : ""
                             }
                         </div>
                         {/* <Link className="card-text" src={items.catalogo}>Fijate áca si anda</Link> */}
