@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Error404 = () => {
@@ -10,7 +11,7 @@ const Error404 = () => {
                 </p>
                 <p className="lead">
                     {
-                        <Link To="/"><b>Please, try again.</b></Link>
+                        <Link to={"/"}><b>Please, try again.</b></Link>
                     }
                 </p>
             </div>

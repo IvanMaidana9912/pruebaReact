@@ -21,11 +21,13 @@ const ItemDetail = ({ items }) => {
                             })}
                         </ul>
                         <div className="d-flex justify-content-center">
-                            {
-                                items.catalogo ? <Link id="catalogoLinkprimary" className="card-text" src={items.catalogo}><b>Descargar Catálogo</b></Link> : ""
-                            }
+                            <Link className="card-text" src={items.catalogo} target={"_blank"}>
+                                Descargar Catalogo
+                            </Link>
                         </div>
-                        {/* <Link className="card-text" src={items.catalogo}>Fijate áca si anda</Link> */}
+                        {/* {
+                                items.catalogo ? <Link id="catalogoLinkprimary" className="card-text" src={items.catalogo}><b>Descargar Catálogo</b></Link> : ""
+                            } */}
                     </div>
                     <div className="col-md-4 mb-5 d-flex w-50 flex-column">
                         <img src={items.img[0]} className="img-fluid rounded-start mb-3" alt={items.titulo} />

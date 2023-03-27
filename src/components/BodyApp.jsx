@@ -4,7 +4,7 @@ import Carrousel from './Carrousel';
 import Bodyappsection from './Bodyappsection';
 import Bodyappsection2 from './Bodyappsection2';
 
-function Bodyapp() {
+function BodyApp() {
   return (
     <>
       <Carrousel/>
@@ -15,4 +15,4 @@ function Bodyapp() {
   )
 }
 
-export default Bodyapp
+export default BodyApp
