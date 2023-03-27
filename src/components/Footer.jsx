@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Gift from "./Gift"
 
 const Footer = () => {
     return (
-        <div className="bg-dark text-center text-white">
-            <div className="p-4 row pt-3">
+        <div className="w-100">
+            <div>< Gift /></div>
+            <div className="p-4 row pt-3 bg-dark text-center text-white">
                 <div className="col">
                     <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 w-100 text-start p-5">
                         <h6 className="text-uppercase fw-bold mb-4 p-3"> <ion-icon name="snow-outline"></ion-icon> Contacto <ion-icon name="snow-outline"></ion-icon></h6>
