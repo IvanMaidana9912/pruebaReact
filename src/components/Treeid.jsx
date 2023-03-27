@@ -7,7 +7,7 @@ const Treeid = ({ identification }) => {
 
         <div className="card mb-3 p-xl-5 bg-dark" id="cardsSecundaries">
             <div className="row g-0">
-                <div className="col-md-4 bg-white">
+                <div className="col-md-4">
                     {
                         identification.img ? <img src={identification.img[0]} className="img-fluid rounded-start" alt={identification.titulo} /> : ""
                     }
