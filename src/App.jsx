@@ -14,9 +14,9 @@ function App() {
       <div className='container'>
         <Nav/>
         <Routes>
-          <Route path={"/"} element={< BodyApp/>}/>
-          <Route path={"/category/:id"} element={<ItemListContainer/>} />
-          <Route path={"/item/:id"} element={<ItemDetailContainer/>} />
+          <Route exact path={"/"} element={< BodyApp/>}/>
+          <Route exact path={"/category/:id"} element={<ItemListContainer/>} />
+          <Route exact path={"/item/:id"} element={<ItemDetailContainer/>} />
           <Route path={"*"} element={<Error404/>} />;
         </Routes>
         <Footer/>
