@@ -74,12 +74,15 @@ code {
   color: white;
 }
 
-#catalogoLink {
-  text-decoration: none;
-  color: white
-}
-
 #catalogoLinkprimary {
   text-decoration: none;
   color: black;
+}
+
+.footerImg {
+  transition: 600ms;
+}
+.footerImg:hover {
+  width: 80px;
+  height: 80px;
 }
