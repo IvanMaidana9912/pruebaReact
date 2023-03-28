@@ -12,12 +12,12 @@ const Bodyappsection2 = ({ dataSection }) => {
         <div className='ul-list'>
           <ul className='ul-list-a'>
             {
-              sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => {<li key={index}><h3>{detail[0]}</h3><p>{detail[1]}</p></li>}) : "")
+              sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => <li key={index}><h3>{detail[0]}</h3><p>{detail[1]}</p></li>) : "")
             }
           </ul>
           <ul className='ul-list-b'>
             {
-              sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => {<li key={index}><h3>{detail[0]}</h3><p>{detail[1]}</p></li>}) : "")
+              sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => <li key={index}><h3>{detail[0]}</h3><p>{detail[1]}</p></li>) : "")
             }
           </ul>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import sectionJSON from "./json/bodySectionsData.json"
+import sectionJSON from "./json/bodySectionsData.json";
 
 const Bodyappsection = ({ dataSection }) => {
     return (
@@ -15,14 +15,14 @@ const Bodyappsection = ({ dataSection }) => {
                     <div className='ul-list-a'>
                         <ul>
                             {
-                                sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => { <li key={index}>{detail}</li> }) : "")
+                                sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => <li key={index}>{detail}</li>) : "")
                             }
                         </ul>
                     </div>
                     <div className='ul-list-b'>
                         <ul>
                             {
-                                sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => { <li key={index}>{detail}</li> }) : "")
+                                sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => <li key={index}>{detail}</li>) : "")
                             }
                         </ul>
                     </div>

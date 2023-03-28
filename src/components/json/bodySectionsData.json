@@ -4,7 +4,7 @@
         "concept": "Un nuevo concepto",
         "title": "Una nueva generación de equipos de aire",
         "slogan": "Somos expetos en aire acondicionado. Por eso, desarrollamos una opción ideal para cada tipo de aplicación.",
-        "img": "/img/home/tecnologia-inverter.jpg",
+        "img": "https://i.imgur.com/kvfEznB.jpg",
         "details": [
             [
                 "Mini y Multi Split.",
@@ -29,7 +29,7 @@
         "concept": "Menor consumo garantizado",
         "title": "Sistemas VRV para el hogar y la oficina",
         "slogan": "Somos creadores de la tecnología VRV, la más eficiente del mercado. Contamos con un modelo ideal para cada aplicación:",
-        "img": "/img/home/sistemasVRV.jpg",
+        "img": "https://i.imgur.com/EB3RBFS.jpg",
         "details": [
             [
                 [
@@ -74,7 +74,7 @@
         "concept": "Departamento de servicios",
         "title": "Estamos para ayudarte",
         "slogan": "Brindamos servicios de soporte técnica personal especializado y usuarios finales",
-        "img": "/img/home/maxima-eficiencia.jpg",
+        "img": "https://i.imgur.com/V7EqHWd.jpg",
         "details": [
             [
                 "Servicios generales.",

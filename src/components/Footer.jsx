@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
                 <div className="col d-flex justify-content-center align-items-center">
                     <Link to={"/"}>
-                        <img className="footerImg" onClick={()=> {console.log("DEJAME DE CLICKEAR!!")}} src="../../public/img/LOGOS/01.png" width={100} height={100} alt="photo"></img>
+                        <img className="footerImg" onClick={()=> {console.log("DEJAME DE CLICKEAR!!")}} src="https://i.imgur.com/FfB5Z41.jpg" width={100} height={100} alt="photo"></img>
                     </Link>
                 </div>
                 <div className="mb-4 col d-flex flex-row text-end align-items-center justify-content-end">

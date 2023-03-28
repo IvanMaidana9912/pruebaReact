@@ -13,7 +13,7 @@ const ItemDetailContainer = () => {
         const promesa = new Promise((resolve) => {
             setTimeout(() => {
                 resolve(dataItemsJSON.find(item => item.id === id));
-            }, 900)
+            }, 1900)
         });
         promesa.then((data) => {
             setItem(data);

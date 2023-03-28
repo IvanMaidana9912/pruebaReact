@@ -102,3 +102,13 @@ code {
   z-index: 1;
   border: 1px solid black;
 }
+
+.navColorLetter {
+  transition: 500ms;
+}
+.navColorLetter:hover {
+  color: #bf9a15;
+}
+.navColorLogo {
+  background-color: #000000;
+}

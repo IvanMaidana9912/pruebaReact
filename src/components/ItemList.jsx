@@ -11,9 +11,9 @@ const ItemList = ({ items }) => {
             </div>
             <div className="row mx-5 d-flex align-items-baseline">
                 {
-                    items.map(item =>
-                        <div className="col my-1" key={item.id}>
-                            <Item item={item} />
+                    items.map((item, index) =>
+                        <div className="col my-1" key={index}>
+                            <Item items={item} />
                         </div>
                     )
                 }
