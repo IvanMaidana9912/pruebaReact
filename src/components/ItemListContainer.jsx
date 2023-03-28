@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
-import ResidencialJson from "./json/residencial.json"
+import dataItemsJSON from "./json/dataItems.json";
 import Loading from "./Loading";
 
 
@@ -12,7 +12,7 @@ const ItemListContainer = () => {
     useEffect(() => {
         const promesa = new Promise((resolve) => {
             setTimeout(() => {
-                resolve(id ? ResidencialJson.filter(item => item.category === id) : ResidencialJson);
+                resolve(id ? dataItemsJSON.filter(item => item.category === id) : dataItemsJSON);
             }, 1000);
         });
         promesa.then((data) => {
@@ -23,7 +23,7 @@ const ItemListContainer = () => {
 
     return (
         <div className="container">
-            {loading ? <Loading /> : <ItemList items={items} />}
+            {loading ? <Loading/> : <ItemList items={items} />}
         </div>
     )
 };

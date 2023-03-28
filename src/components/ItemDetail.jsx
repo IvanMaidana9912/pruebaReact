@@ -1,8 +1,7 @@
 import React from "react";
 import Images from "./Image";
 import Treeid from "./Treeid";
-import ResidencialJson from "./json/residencial.json"
-
+import dataItemsJson from "./json/dataItems.json"
 
 const ItemDetail = ({ items }) => {
 
@@ -34,7 +33,7 @@ const ItemDetail = ({ items }) => {
             </div>
             <div>
                 {
-                    ResidencialJson.map((subId, index) => 
+                    dataItemsJson.map((subId, index) => 
                         subId.subId === items.id ? <li key={index}><Treeid identification={subId}/></li> : ""
                     )
                 }

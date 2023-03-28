@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
-import ResidencialJson from "./json/residencial.json";
+import dataItemsJSON from "./json/dataItems.json";
 import Loading from "./Loading";
 
 const ItemDetailContainer = () => {
@@ -9,12 +9,10 @@ const ItemDetailContainer = () => {
     const [loading, setLoading] = useState(true);
     const { id } = useParams();
     
-
-
     useEffect(() => {
         const promesa = new Promise((resolve) => {
             setTimeout(() => {
-                resolve(ResidencialJson.find(item => item.id === id));
+                resolve(dataItemsJSON.find(item => item.id === id));
             }, 900)
         });
         promesa.then((data) => {
