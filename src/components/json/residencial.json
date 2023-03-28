@@ -4,7 +4,7 @@
         "titulo": "Daikin Kirara Sense",
         "slogan": "La evolución del confort interior, con sensor inteligente. Tecnología japonesa de máxima eficiencia para tu hogar.",
         "img": [
-            "/img/Residencial/id1.png"
+            "https://i.imgur.com/tvk7ymw.png"
         ],
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-mini-sense.pdf",
         "category": "residencial",
@@ -22,7 +22,7 @@
         "titulo": "Mini Split Inverter Daikin",
         "slogan": "Diseñado para climatizar todos los ambientes del hogar con el máximo nivel de eficiencia energética.",
         "img": [
-            "/img/Residencial/id2.png"
+            "https://i.imgur.com/gfxX1M7.png"
         ],
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-mini-split.pdf",
         "category": "residencial",
@@ -40,7 +40,7 @@
         "titulo": "Multi Split Inverter Premium Daikin",
         "slogan": "Un equipo exterior de alto rendimiento y eficiencia energética que permite conectar hasta 5 diferentes tipos de unidades.",
         "img": [
-            "/img/Residencial/id3.png"
+            "https://i.imgur.com/mkhuBk9.png"
         ],
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-multi-split-premium.pdf",
         "category": "residencial",
@@ -58,7 +58,7 @@
         "titulo": "Multi Split Inverter Daikin",
         "slogan": "Ideal para climatizar todos los ambientes de tu hogar con una sola unidad exterior.",
         "img": [
-            "/img/Residencial/id4.png"
+            "https://i.imgur.com/w4sVKB2.png"
         ],
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-multi-split.pdf",
         "category": "residencial",
@@ -76,9 +76,8 @@
         "titulo": "VRV SMALL",
         "slogan": "El sistema más eficiente del mercado en su versión small que permite climatizar hasta 14 ambientes con múltiples diseños interiores.",
         "img": [
-            "/img/Residencial/id5.png"
+            "https://i.imgur.com/nhrYpUF.png"
         ],
-        "catalogo": " No existe ",
         "category": "residencial",
         "detalle": [
             "Cuenta con modelos con capacidad de 4 a 9 HP.",
@@ -96,8 +95,8 @@
         "slogan": "Generador de agua caliente para climatizar tu hogar.",
         "category": "residencial",
         "img": [
-            "/img/Residencial/id6.png",
-            "/img/Residencial/id06.png"
+            "https://i.imgur.com/h8wVYph.png",
+            "https://i.imgur.com/v8yKiPu.png"
         ],
         "detalle": [
             "¿Necesitás un sistema de climatización que no requiera gas natural?",
@@ -108,7 +107,7 @@
         "subId": "6",
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/mini-chiller-A4-Agosto-2022-online.pdf",
         "img": [
-            "/img/Residencial/id0600.jpg"
+            "https://i.imgur.com/v8yKiPu.png"
         ],
         "detalle": [
             "Máxima eficiencia y cuidado del medio ambiente. Equipos sin emisión de gases contaminantes.",
@@ -131,7 +130,7 @@
         "slogan": "",
         "catalogo": "",
         "img": [
-            "/img/Residencial/id0601.jpeg"
+            "https://i.imgur.com/8HcCCX1.jpg"
         ],
         "detalle": [
             "El silencio es Confort",
@@ -166,18 +165,18 @@
         "slogan": "No se oye. No impacta en el medio ambiente. Y asegura el clima perfecto. Descubrí la nueva generación de equipos inverter sustentables.",
         "category": "comercial",
         "img": [
-            "/img/Comercial/id2.png"
+            "https://i.imgur.com/Gj3D8Vo.png"
         ],
         "subImg": [
-            "/img/Comercial/id2-1.jpg",
-            "/img/Comercial/id2-2.jpg",
-            "/img/Comercial/id2-3.jpg"
+            "https://i.imgur.com/cFTaGWw.jpg",
+            "https://i.imgur.com/qD2U2Ze.jpg",
+            "https://i.imgur.com/9EEdEC5.jpg"
         ]
     },
     {
         "subId": "7",
         "img": [
-            "/img/Comercial/id2-4.jpg"
+            "https://i.imgur.com/A31IPmS.jpg"
         ],
         "detalle": [
             "Equipos 100% sustentables",
@@ -190,7 +189,7 @@
     {
         "subId": "7",
         "img": [
-            "/img/Comercial/id2-5.jpg"
+            "https://i.imgur.com/L1Q5u18.png"
         ],
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
         "detalle": [
@@ -206,7 +205,7 @@
     {
         "subId": "7",
         "img": [
-            "/img/Comercial/id2-6.jpg"
+            "https://i.imgur.com/L6Ws7ya.jpg"
         ],
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
         "detalle": [
@@ -237,18 +236,18 @@
         "slogan": "La línea más completa de soluciones en sistemas separados para aplicaciones comerciales.",
         "category": "comercial",
         "img": [
-            "/img/Comercial/id2-1.jpg"
+            "https://i.imgur.com/cFTaGWw.jpg"
         ],
         "subImg": [
-            "/img/Comercial/id2-2.jpg",
-            "/img/Comercial/id2-3.jpg",
-            "/img/Comercial/id2-7.jpeg"
+            "https://i.imgur.com/qD2U2Ze.jpg",
+            "https://i.imgur.com/9EEdEC5.jpg",
+            "https://i.imgur.com/e2vY2HR.jpg"
         ]
     },
     {
         "subId": "8",
         "img": [
-            "/img/Comercial/id2-5.jpg"
+            "https://i.imgur.com/L1Q5u18.png"
         ],
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/SKY-diptico-original-A4-comprimido.pdf",
         "detalle": [
@@ -263,7 +262,7 @@
     {
         "subId": "8",
         "img": [
-            "/img/Comercial/id2-6.jpg"
+            "https://i.imgur.com/L6Ws7ya.jpg"
         ],
         "catalogo": "",
         "detalle": [
@@ -279,7 +278,7 @@
     {
         "subId": "8",
         "img": [
-            "/img/Comercial/id2-3.jpg"
+            "https://i.imgur.com/9EEdEC5.jpg"
         ],
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/SKY-diptico-original-A4-comprimido.pdf",
         "detalle": [
@@ -298,7 +297,7 @@
         "slogan": "Amplia gama de soluciones para proyectos comerciales e industriales.     ",
         "category": "comercial",
         "img": [
-            "/img/Comercial/id2-8.png"
+            "https://i.imgur.com/i6cKyTT.png"
         ]
     },
     {
@@ -327,7 +326,7 @@
         "titulo": "Sistemas de control",
         "slogan": "La gestión de los equipos de aire nunca fue tan fácil. Descubrí el máximo nivel de control:",
         "img": [
-            "/img/Comercial/id2-9.png"
+            "https://i.imgur.com/EvmL4ja.png"
         ],
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-sistemas-de-control.pdf",
         "category": "comercial",
