@@ -1,10 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Treeid = ({ identification }) => {
 
     return (
-
         <div className="card mb-3 p-xl-5 bg-dark" id="cardsSecundaries">
             <div className="row g-0">
                 <div className="col-md-4">
@@ -28,7 +26,7 @@ const Treeid = ({ identification }) => {
                         </ul>
                         <div className="d-flex justify-content-center">
                             {
-                                identification.catalogo ? <Link className="card-text" id="catalogoLink" src={identification.catalogo}>Descargar Catálogo</Link> : ""
+                                identification.catalogo ? <button onClick={() => {window.open(identification.catalogo, '_blank')}} className="btn btn-info mt-5">Descargar Catálogo</button> : ""
                             }
                         </div>
                     </div>
