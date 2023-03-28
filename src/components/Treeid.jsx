@@ -20,8 +20,8 @@ const Treeid = ({ identification }) => {
                         }
 
                         <ul>
-                            {identification.detalle && identification.detalle.map(item =>
-                                <li key={item}>{item}</li>
+                            {identification.detalle.map((item, index) =>
+                                <li key={index}>{item}</li>
                             )}
                         </ul>
                         <div className="d-flex justify-content-center">

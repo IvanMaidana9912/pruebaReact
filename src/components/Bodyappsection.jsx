@@ -1,11 +1,11 @@
 import React from "react";
 import sectionJSON from "./json/bodySectionsData.json"
 
-const Bodyappsection = ({dataSection}) => {
+const Bodyappsection = ({ dataSection }) => {
     return (
         <section className='section-inverter'>
             <picture>
-                {sectionJSON.map(sec => sec.section === dataSection ? <img className='img' src={sec.img} alt='papa' /> : "")}
+                {sectionJSON.map(sec => sec.section === dataSection ? <img key={sec.img} className='img' src={sec.img} alt='papa' /> : "")}
             </picture>
             <div className='div-inverter'>
                 <h5>{sectionJSON.map(sec => sec.section === dataSection ? sec.concept : "")}</h5>
@@ -15,14 +15,14 @@ const Bodyappsection = ({dataSection}) => {
                     <div className='ul-list-a'>
                         <ul>
                             {
-                                sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map(detail => <li key={detail.section}>{detail}</li>) : "")
+                                sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => { <li key={index}>{detail}</li> }) : "")
                             }
                         </ul>
                     </div>
                     <div className='ul-list-b'>
                         <ul>
                             {
-                                sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map(detail => <li key={detail.section}>{detail}</li>) : "")
+                                sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => { <li key={index}>{detail}</li> }) : "")
                             }
                         </ul>
                     </div>

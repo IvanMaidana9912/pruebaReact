@@ -16,8 +16,8 @@ const ItemDetail = ({ items }) => {
                             <p className="card-text w-100 text-start">{items.slogan}</p>
                         </div>
                         <ul>
-                            {items.detalle && items.detalle.map(item => {
-                                <li key={item}>{item}</li>
+                            {items.detalle.map((item, index) => {
+                                <li key={index}>{item}</li>
                             })}
                         </ul>
                         <div className="d-flex justify-content-center">
@@ -34,8 +34,8 @@ const ItemDetail = ({ items }) => {
             </div>
             <div>
                 {
-                    ResidencialJson.map(subId =>
-                        subId.subId === items.id ? <Treeid identification={subId} /> : ""
+                    ResidencialJson.map((subId, index) => 
+                        subId.subId === items.id ? <li key={index}><Treeid identification={subId}/></li> : ""
                     )
                 }
             </div>

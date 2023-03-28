@@ -15,7 +15,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="col d-flex justify-content-center align-items-center">
-                    <img className="footerImg" onClick={()=> {console.log("DEJAME DE CLICKEAR!!")}} src="../../public/img/LOGOS/01.png" width={100} height={100} alt="photo"></img>
+                    <Link to={"/"}>
+                        <img className="footerImg" onClick={()=> {console.log("DEJAME DE CLICKEAR!!")}} src="../../public/img/LOGOS/01.png" width={100} height={100} alt="photo"></img>
+                    </Link>
                 </div>
                 <div className="mb-4 col d-flex flex-row text-end align-items-center justify-content-end">
                     <Link onClick={() => {window.open("https://web.whatsapp.com/", '_blank')}} className="btn btn-outline-light btn-floating m-1"><ion-icon name="logo-whatsapp"></ion-icon></Link>
@@ -27,7 +29,7 @@ const Footer = () => {
                 <div>
                     <div>
                         <p>© todos los derechos a buenosairesvrv</p>
-                        <p> developers www.codecraze.com </p>
+                        <p onClick={() => {window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley")}}> developers www.codecraze.com </p>
                     </div>
                 </div>
             </div>

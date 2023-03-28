@@ -5,9 +5,9 @@ const NavBar = () => {
     return (
         <div className="row">
             <div className='col '>
-                <nav className="bg-dark navbar navbar-expand-lg bg-body-tertiary">
+                <nav className="bg-dark navbar navbar-expand-lg bg-body-tertiary sticky-top">
                     <div className=" container-fluid ">
-                        <div className="row " >
+                        <div className="row">
                             <Link className="navbar-brand" to={"/"}>
                                 <img src={"/img/LOGOS/001.png"} alt={"logo"} width={60} />
                             </Link>
@@ -16,8 +16,8 @@ const NavBar = () => {
                             </button>
                         </div>
 
-                        <div className="collapse navbar-collapse">
-                            <ul className="navbar-nav">
+                        <div className="collapse navbar-collapse ">
+                            <ul className="navbar-nav navHover nav-item">
                                 <NavLink className="nav-item nav-link text-white" to={"/category/residencial"}>Residencial</NavLink>
                                 <NavLink className="nav-item nav-link text-white" to={"/category/comercial"}>Comercial</NavLink>
                             </ul>
