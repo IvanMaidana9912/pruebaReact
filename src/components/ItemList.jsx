@@ -9,10 +9,10 @@ const ItemList = ({ items }) => {
             <div>
                 <p className="paraphStyle"><b>{primeraLetraMayuscula}</b></p>
             </div>
-            <div className="row mx-auto">
+            <div className="row mx-5 d-flex align-items-baseline">
                 {
                     items.map(item =>
-                        <div className="col my-3" key={item.id}>
+                        <div className="col my-1" key={item.id}>
                             <Item item={item} />
                         </div>
                     )
