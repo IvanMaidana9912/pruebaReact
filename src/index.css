@@ -86,3 +86,17 @@ code {
   width: 80px;
   height: 80px;
 }
+
+.animationImgDetail {
+  transition: 600ms;
+}
+.animationImgDetail:hover {
+  cursor:pointer;
+}
+
+.animationImgDetail:active {
+  width:50%;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid black;
+}
