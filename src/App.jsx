@@ -10,19 +10,18 @@ import BodyApp from './components/BodyApp';
 
 function App() {
   return (
-    < BrowserRouter>
+    <BrowserRouter>
       <div className='container'>
-        < Nav />
-        < Routes>
-          <Route path={"/"} element={< BodyApp />}/>
-          <Route path={"/category/:id"} element={<ItemListContainer />} />
-          <Route path={"/item/:id"} element={<ItemDetailContainer />} />
-          <Route path={"*"} element={<Error404 />} />;
+        <Nav/>
+        <Routes>
+          <Route path={"/"} element={< BodyApp/>}/>
+          <Route path={"/category/:id"} element={<ItemListContainer/>} />
+          <Route path={"/item/:id"} element={<ItemDetailContainer/>} />
+          <Route path={"*"} element={<Error404/>} />;
         </Routes>
-        < Footer />
+        <Footer/>
       </div>
     </BrowserRouter>
-
   );
 }
 
