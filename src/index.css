@@ -17,11 +17,18 @@ code {
 }
 
 .classFooter {
-  width: 1295px;
+  width: 75%;
+  height: 3%;
   position: absolute;
   z-index: 1;
   display: flex;
   justify-content: space-between;
+  inline-size: -webkit-fill-available;
+}
+.classFooter div {
+  display: flex;
+  justify-content: center;
+ 
 }
 
 .classFooter3 {
@@ -31,11 +38,6 @@ code {
 .classFooter1 {
   inline-size: -webkit-fill-available;
   z-index: -1;
-  width: 1295px;
-}
-
-.classFooter2 {
-  width: 55px;
 }
 
 #itemContainer {
@@ -120,9 +122,9 @@ code {
 
 /* @MEDIAQUERIES */
 
-@media screen and (min-width: 300px) and (max-width: 479px)
+/* @media screen and (min-width: 300px) and (max-width: 479px)
 {
-  /* .classFooter2 {
-    display: none; */
+   .classFooter2 {
+    display: none;
   }
-}
+} */

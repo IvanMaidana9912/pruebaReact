@@ -2,22 +2,21 @@ import React from "react";
 import dataAnimation from './json/dataAnimation.json'
 
 const Gift = () => {
+    const srcData = dataAnimation[0].animation;
     return (
         <div className="classFooter3">
             <div className="classFooter">
                 <div>
-                    <img className="classFooter2" src={dataAnimation[0].animation[0]} alt={"animation"} />
+                    <img className="classFooter2" src={srcData[0]} alt={"animation"} />
                 </div>
                 <div>
-                    <img className="classFooter2" src={dataAnimation[0].animation[0]} alt={"animation"} />
+                    <img className="classFooter2" src={srcData[0]} alt={"animation"} />
                 </div>
                 <div>
-                    <img className="classFooter2" src={dataAnimation[0].animation[0]} alt={"animation"} />
+                    <img className="classFooter2" src={srcData[0]} alt={"animation"} />
                 </div>
             </div>
-            <div>
-                <img className="classFooter1" style={ { width: '100%'}} src={dataAnimation[0].animation[1]} alt={"animation"} />
-            </div>
+            <img className="classFooter1" src={srcData[1]} alt={"animation"} />
         </div>
     )
 }
