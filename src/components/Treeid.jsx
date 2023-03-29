@@ -20,13 +20,14 @@ const Treeid = ({ identification }) => {
                         }
 
                         <ul>
-                            {identification.detalle.map((item, index) =>
-                                <li key={index}>{item}</li>
-                            )}
+                            {
+                                identification.detalle ? identification.detalle.map((item, index) =>
+                                    <li key={index}>{item}</li>) : ""
+                            }
                         </ul>
                         <div className="d-flex justify-content-center">
                             {
-                                identification.catalogo ? <button onClick={() => {window.open(identification.catalogo, '_blank')}} className="btn btn-info mt-5">Download Catalog</button> : ""
+                                identification.catalogo ? <button onClick={() => { window.open(identification.catalogo, '_blank') }} className="btn btn-info mt-5">Download Catalog</button> : ""
                             }
                         </div>
                     </div>

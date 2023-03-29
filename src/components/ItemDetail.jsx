@@ -15,12 +15,14 @@ const ItemDetail = ({ items }) => {
                             <p className="card-text w-100 text-start">{items.slogan}</p>
                         </div>
                         <ul>
-                            {items.detalle ? items.detalle.map((item, index) => 
-                                <li key={index}>{item}</li>) : ""}
+                            {
+                                items.detalle ? items.detalle.map((item, index) =>
+                                    <li key={index}>{item}</li>) : ""
+                            }
                         </ul>
                         <div className="d-flex justify-content-center">
                             {
-                                items.catalogo ? <button onClick={() => {window.open(items.catalogo, '_blank')}} className="btn btn-info mt-5">Download Catalog</button> : ""
+                                items.catalogo ? <button onClick={() => { window.open(items.catalogo, '_blank') }} className="btn btn-info mt-5">Download Catalog</button> : ""
                             }
                         </div>
                     </div>
@@ -32,8 +34,8 @@ const ItemDetail = ({ items }) => {
             </div>
             <div>
                 {
-                    dataItemsJson.map((subId, index) => 
-                        subId.subId === items.id ? <li key={index}><Treeid identification={subId}/></li> : ""
+                    dataItemsJson.map((subId, index) =>
+                        subId.subId === items.id ? <li key={index}><Treeid identification={subId} /></li> : ""
                     )
                 }
             </div>
