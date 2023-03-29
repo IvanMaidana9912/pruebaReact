@@ -1,33 +1,45 @@
 import React from "react";
 import sectionJSON from "./json/bodySectionsData.json"
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
+
 
 const Bodyappsection2 = ({ dataSection }) => {
 
   return (
-    <section className='section-vrv'>
-      <div className='div-vrv'>
-        <h5>{sectionJSON.map(sec => sec.section === dataSection ? sec.concept : "")}</h5>
-        <h2>{sectionJSON.map(sec => sec.section === dataSection ? sec.title : "")}</h2>
-        <p>{sectionJSON.map(sec => sec.section === dataSection ? sec.slogan : "")}</p>
-        <div className='ul-list'>
-          <ul className='ul-list-a'>
-            {
-              sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => <li key={index}><h3>{detail[0]}</h3><p>{detail[1]}</p></li>) : "")
-            }
-          </ul>
-          <ul className='ul-list-b'>
-            {
-              sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => <li key={index}><h3>{detail[0]}</h3><p>{detail[1]}</p></li>) : "")
-            }
-          </ul>
-        </div>
-      </div>
-      <picture>
-        {sectionJSON.map(sec => sec.section === dataSection ? <img key={sec.img} className='img' src={sec.img} alt='papa' /> : "")}
-      </picture>
-    </section>
+
+    <>
+      <Card style={{ width: '18rem' }}>
+      {sectionJSON.map(sec => sec.section === dataSection ? <Card.Img key={sec.img} className='img' src={sec.img} alt='papa' /> : "")}
+        <Card.Body>
+          <Card.Title>
+            {sectionJSON.map(sec => sec.section === dataSection ? sec.concept : "")}
+          </Card.Title>
+          <Card.Subtitle>
+            {sectionJSON.map(sec => sec.section === dataSection ? sec.title : "")}
+          </Card.Subtitle>
+          <Card.Text>
+            {sectionJSON.map(sec => sec.section === dataSection ? sec.slogan : "")}
+          </Card.Text>
+        </Card.Body>
+        <ListGroup className="list-group-flush">
+            <ListGroup.Item>
+              {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => <li key={index}>{detail}</li>) : "")}
+            </ListGroup.Item>
+            <ListGroup.Item>
+              {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => <li key={index}>{detail}</li>) : "")}
+            </ListGroup.Item>
+        </ListGroup>
+        <Card.Body>
+          <Card.Link href="#">Card Link</Card.Link>
+          <Card.Link href="#">Another Link</Card.Link>
+        </Card.Body>
+      </Card>
+
+   </>
   )
 }
+
 /*
 IDEA CON CHAT GPT
 import React from 'react';

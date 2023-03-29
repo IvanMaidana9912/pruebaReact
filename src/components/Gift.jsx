@@ -16,7 +16,7 @@ const Gift = () => {
                 </div>
             </div>
             <div>
-                <img className="classFooter1" src={dataAnimation[0].animation[1]} alt={"animation"} />
+                <img className="classFooter1" style={ { width: '100%'}} src={dataAnimation[0].animation[1]} alt={"animation"} />
             </div>
         </div>
     )

@@ -116,3 +116,13 @@ code {
 .itemListWidth {
   width: 20% !important;
 }
+
+
+/* @MEDIAQUERIES */
+
+@media screen and (min-width: 300px) and (max-width: 479px)
+{
+  /* .classFooter2 {
+    display: none; */
+  }
+}
