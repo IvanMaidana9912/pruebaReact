@@ -21,7 +21,7 @@ const ItemDetail = ({ items }) => {
                         </ul>
                         <div className="d-flex justify-content-center">
                             {
-                                items.catalogo ? <button onClick={() => {window.open(items.catalogo, '_blank')}} className="btn btn-info mt-5">Descargar Catálogo</button> : ""
+                                items.catalogo ? <button onClick={() => {window.open(items.catalogo, '_blank')}} className="btn btn-info mt-5">Download Catalog</button> : ""
                             }
                         </div>
                     </div>

@@ -26,7 +26,7 @@ const Treeid = ({ identification }) => {
                         </ul>
                         <div className="d-flex justify-content-center">
                             {
-                                identification.catalogo ? <button onClick={() => {window.open(identification.catalogo, '_blank')}} className="btn btn-info mt-5">Descargar Catálogo</button> : ""
+                                identification.catalogo ? <button onClick={() => {window.open(identification.catalogo, '_blank')}} className="btn btn-info mt-5">Download Catalog</button> : ""
                             }
                         </div>
                     </div>
