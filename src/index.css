@@ -112,3 +112,7 @@ code {
 .navColorLogo {
   background-color: #000000;
 }
+
+.itemListWidth {
+  width: 20% !important;
+}

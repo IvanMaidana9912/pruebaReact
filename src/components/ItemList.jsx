@@ -12,7 +12,7 @@ const ItemList = ({ items }) => {
             <div className="row mx-5 d-flex align-items-baseline">
                 {
                     items.map((item, index) =>
-                        <div className="col my-1" key={index}>
+                        <div className="col my-1 itemListWidth" key={index}>
                             <Item items={item} />
                         </div>
                     )
