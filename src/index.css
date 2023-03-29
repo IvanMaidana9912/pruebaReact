@@ -17,26 +17,34 @@ code {
 }
 
 .classFooter {
-  width: 75%;
-  height: 3%;
-  position: absolute;
+  width: 80% !important;
+  height: auto;
+  position:absolute;
   z-index: 1;
   display: flex;
   justify-content: space-between;
-  inline-size: -webkit-fill-available;
 }
+
 .classFooter div {
   display: flex;
   justify-content: center;
- 
+  align-items: center;
 }
-
+.classFooter2 {
+  width: 35%;
+  height: auto; 
+  max-height: 100%;
+}
 .classFooter3 {
   margin-top: 150px;
 }
 
 .classFooter1 {
-  inline-size: -webkit-fill-available;
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  top: 0;
+  left: 0;
   z-index: -1;
 }
 
