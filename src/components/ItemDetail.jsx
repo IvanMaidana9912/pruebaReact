@@ -17,7 +17,7 @@ const ItemDetail = ({ items }) => {
                         <ul>
                             {
                                 items.detalle ? items.detalle.map((item, index) =>
-                                    <li key={index}>{item}</li>) : ""
+                                    <li className="text-start" key={index}>{item}</li>) : ""
                             }
                         </ul>
                         <div className="d-flex justify-content-center">

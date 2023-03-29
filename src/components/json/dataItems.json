@@ -37,14 +37,14 @@
     },
     {
         "id": "3",
-        "title": "Daikin Premium Inverter Multi Split",
+        "titulo": "Daikin Premium Inverter Multi Split",
         "slogan": "A high-performance and energy-efficient outdoor unit that allows for connection of up to 5 different types of indoor units.",
         "img": [
             "https://i.imgur.com/mkhuBk9.png"
         ],
-        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-multi-split-premium.pdf",
+        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-multi-split-premium.pdf",
         "category": "residential",
-        "details": [
+        "detalle": [
             "It offers models with capacities of 2,500, 3,500, 5,000, 6,000 and 7,100W.",
             "A single outdoor unit can be connected to up to 5 indoor units.",
             "Includes air filtering and purification elements.",
@@ -73,39 +73,88 @@
     },
     {
         "id": "5",
-        "titulo": "Mini chiller residencial",
-        "slogan": "El confort no hace ruido. Nuestro mini chiller ofrece soluciones de refrigeración y calefacción silenciosas y eficientes.",
+        "titulo": "VRV SMALL",
+        "slogan": "The most efficient system on the market in its small version that allows air conditioning up to 14 rooms with multiple interior designs.",
         "img": [
-            "https://i.imgur.com/vtLzTtT.jpg",
-            "https://i.imgur.com/iENNt6x.jpg",
-            "https://i.imgur.com/7vJhNis.jpg",
-            "https://i.imgur.com/ga4QmCQ.jpg"
+            "https://i.imgur.com/nhrYpUF.png"
+        ],
+        "category": "residential",
+        "detalle": [
+            "It has models with capacities from 4 to 9 HP.",
+            "High performance coefficient and energy savings.",
+            "6 types and 18 models of residential indoor units.",
+            "Multiple options in control systems.",
+            "Silent operation in night mode.",
+            "Design flexibility and easy installation.",
+            "Uses R-410a refrigerant and has no impact on the environment."
+        ]
+    },
+    {
+        "id": "6",
+        "titulo": "Mini Chiller Inverter",
+        "slogan": "Hot water generator for heating your home.",
+        "category": "residential",
+        "img": [
+            "https://i.imgur.com/h8wVYph.png",
+            "https://i.imgur.com/v8yKiPu.png"
+        ],
+        "detalle": [
+            "Do you need an air conditioning system that does not require natural gas?",
+            "Mini Chiller Inverter: Maximum efficiency and care for the environment. Equipment with no emission of polluting gases."
+        ]
+    },
+    {
+        "subId": "6",
+        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/mini-chiller-A4-Agosto-2022-online.pdf",
+        "img": [
+            "https://i.imgur.com/v8yKiPu.png"
+        ],
+        "detalle": [
+            "Maximum efficiency and care for the environment. Equipment with no emission of polluting gases.",
+            "Maximum efficiency with 0% combustion.",
+            "Heat pump system: AEROTHERMY.",
+            "Unique system: heating and cooling.",
+            "Sustainable: high energy savings and reduced environmental impact.",
+            "Operation -15°C to 45°C.",
+            "External condensing unit, not occupying interior space.",
+            "100% electric. Ideal for areas with no gas supply.",
+            "Modular equipment for up to 8 units.",
+            "Low noise level.",
+            "Connection with fan coils and radiant floor heating.",
+            "Compatible with solar panels."
+        ]
+    },
+    {
+        "subId": "6",
+        "titulo": "",
+        "slogan": "",
+        "catalogo": "",
+        "img": [
+            "https://i.imgur.com/8HcCCX1.jpg"
         ],
         "detalle": [
             "Silence is Comfort",
-            "Our residential mini chiller was designed with the end user in mind.\nWe worked on 8 different points of noise reduction technology to achieve one of the quietest devices on the market.",
             "Our residential mini chiller was designed with the end user in mind.",
-            "We worked on 8 different points of noise reduction technology to achieve one of the quietest devices on the market.",
-            "The Battle of Cold",
-            "This equipment offers a renewable and all-in-one heating and cooling solution, ideal for both cold and warm climates.\nThis equipment uses outdoor air to provide the necessary heating capacity, with outside temperatures of up to -15°C.",
-            "This equipment offers a renewable and all-in-one heating and cooling solution, ideal for both cold and warm climates.",
-            "This equipment uses outdoor air to provide the necessary heating capacity, with outside temperatures of up to -15°C."
+            "We worked on 8 different points of noise reduction technology to achieve one of the quietest systems on the market.",
+            "The Cold Battle",
+            "This system offers a renewable, all-in-one heating and cooling solution, ideal for both cold and warm climates.",
+            "It uses outside air to provide the necessary heating capacity, even in temperatures as low as -15°C."
         ]
     },
     {
         "subId": "6",
         "titulo": "Ducted Fan Coil",
-        "slogan": "Maximum efficiency taking up the least amount of space. Its extremely quiet units easily adapt to any environment.",
+        "slogan": "Maximum efficiency taking up the smallest possible space. Its extremely silent units adapt easily to any environment.",
         "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/fancoil-A4-agosto-2022-online.pdf",
         "detalle": [
             "Slim design, only 24cm high, is the ideal solution for small spaces.",
-            "Invisible air conditioning built into the ceiling.",
+            "Invisible air conditioning embedded in the ceiling.",
             "Optimal air distribution.",
-            "Low pressure model with discharge condensate tray.",
+            "Low-pressure model with discharge condensate tray.",
             "Suitable for air conditioning and heating.",
             "Intelligent Touch Screen control.",
             "Wide range of capacities from 2 to 8 KW.",
-            "Easy maintenance with washable nylon filter and full rear return."
+            "Easy maintenance with washable nylon filter and full posterior return."
         ]
     },
     {
@@ -127,7 +176,7 @@
         "img": [
             "https://i.imgur.com/A31IPmS.jpg"
         ],
-        "Details": [
+        "detalle": [
             "100% Sustainable Equipment",
             "In 2012, DAIKIN discovered R-32, the most efficient refrigerant generation on the market today, with significant advantages in terms of efficiency, profitability, and environmental care.",
             "The impact that this refrigerant has on global warming is one-third that of conventional refrigerants. This makes it the most efficient on the market.",
@@ -140,8 +189,8 @@
         "img": [
             "https://i.imgur.com/vLOhGQr.jpg"
         ],
-        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
-        "details": [
+        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
+        "detalle": [
             "Inverter Under Silhouette",
             "The most complete line of under silhouette equipment for commercial applications:",
             "Capacities of 3 and 5TR.",
@@ -156,8 +205,8 @@
         "img": [
             "https://i.imgur.com/L6Ws7ya.jpg"
         ],
-        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
-        "details": [
+        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
+        "detalle": [
             "Cassette Inverter",
             "The new generation of Daikin Cassette units has arrived in Argentina. Maximum innovation and performance.",
             "Capacities of 3 and 5tr.",
@@ -168,8 +217,8 @@
     },
     {
         "subId": "7",
-        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
-        "details": [
+        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
+        "detalle": [
             "Inverter Floor Ceiling",
             "Sky Air Advance also offers high-performance Inverter Ceiling options. Discover its benefits:",
             "Capacities of 3 and 5TR.",
@@ -180,7 +229,7 @@
     },
     {
         "id": "8",
-        "title": "Sky Air",
+        "titulo": "Sky Air",
         "slogan": "The most complete line of solutions in separate systems for commercial applications.",
         "category": "commercial",
         "img": [
