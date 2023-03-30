@@ -18,15 +18,15 @@ export const BodyAppSection2 = ({ dataSection }) => {
             {sectionJSON.map(sec => sec.section === dataSection ? sec.title : "")}
           </Card.Title>
           <Card.Text>
-            {sectionJSON.map(sec => sec.section === dataSection ? sec.slogan : "")}
+            {sectionJSON.map(sec => sec.section === dataSection ? <div key={sec.id}>{sec.slogan}</div> : "")}
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
           <ListGroup.Item>
-            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => <ul><li key={index}><h3>{detail[0]}</h3></li><p>{detail[1]}</p></ul>) : "")}
+            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map(detail => <ul><li key={sec.id}><h3>{detail[0]}</h3></li><p>{detail[1]}</p></ul>) : "")}
           </ListGroup.Item>
           <ListGroup.Item>
-            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => <ul><li key={index}><h3>{detail[0]}</h3></li><p>{detail[1]}</p></ul>) : "")}
+            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map(detail => <ul><li key={sec.id}><h3>{detail[0]}</h3></li><p>{detail[1]}</p></ul>) : "")}
           </ListGroup.Item>
         </ListGroup>
         {/* <Card.Body>
