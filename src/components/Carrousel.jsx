@@ -1,7 +1,6 @@
-import React from "react";
 import dataCarrousel from './json/dataCarrousel.json'
 
-const Carrousel = () => {
+export const Carrousel = () => {
     return (
         <div id="carouselExampleSlidesOnly" className="carousel slide mb-5" data-bs-ride="carousel">
             <div className="carousel-inner ">
@@ -16,5 +15,3 @@ const Carrousel = () => {
         </div>
     );
 };
-
-export default Carrousel;

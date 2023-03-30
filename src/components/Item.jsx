@@ -1,7 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
-const Item = ( {items} ) => {
+export const Item = ( {items} ) => {
     // const confirm = parseInt(items.id) <= 10  ? "/item/" + items.id : "/item/ "
 
     return (
@@ -16,5 +15,3 @@ const Item = ( {items} ) => {
         </Link>
     );
 };
-
-export default Item;

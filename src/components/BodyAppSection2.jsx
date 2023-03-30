@@ -1,10 +1,8 @@
-import React from "react";
 import sectionJSON from "./json/bodySectionsData.json"
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
-
-const BodyAppSection2 = ({ dataSection }) => {
+export const BodyAppSection2 = ({ dataSection }) => {
 
   return (
     <>
@@ -23,10 +21,10 @@ const BodyAppSection2 = ({ dataSection }) => {
         </Card.Body>
         <ListGroup className="list-group-flush">
           <ListGroup.Item>
-            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => <li key={index}>{detail}</li>) : "")}
+            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => <ul><li key={index}><h3>{detail[0]}</h3></li><p>{detail[1]}</p></ul>) : "")}
           </ListGroup.Item>
           <ListGroup.Item>
-            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => <li key={index}>{detail}</li>) : "")}
+            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => <ul><li key={index}><h3>{detail[0]}</h3></li><p>{detail[1]}</p></ul>) : "")}
           </ListGroup.Item>
         </ListGroup>
         {/* <Card.Body>
@@ -67,6 +65,3 @@ function SistemasVRV() {
 export default SistemasVRV;
 
 */
-
-
-export default BodyAppSection2;

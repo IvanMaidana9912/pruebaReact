@@ -1,9 +1,8 @@
-import React from "react";
 import sectionJSON from "./json/bodySectionsData.json";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
-const BodyAppSection = ({ dataSection }) => {
+export const BodyAppSection = ({ dataSection }) => {
 
   return (
     <>
@@ -36,5 +35,3 @@ const BodyAppSection = ({ dataSection }) => {
     </>
   )
 }
-
-export default BodyAppSection;

@@ -1,7 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
-const Error404 = () => {
+export const Error404 = () => {
     return (
         <div className="d-flex align-items-center justify-content-center vh-100">
             <div className=" col-md-6 mt-5 d-flex justify-content-center align-items-center flex-column">
@@ -18,4 +17,3 @@ const Error404 = () => {
         </div>
     )
 }
-export default Error404;

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import ItemList from "./ItemList";
+import {ItemList} from "./ItemList";
 import dataItemsJSON from "./json/dataItems.json";
-import Loading from "./Loading";
+import {Loading} from "./Loading";
 
 
-const ItemListContainer = () => {
+export const ItemListContainer = () => {
     const [items, setItems] = useState([]);
     const [loading, setLoading] = useState(true);
     const { id } = useParams()
@@ -27,5 +27,3 @@ const ItemListContainer = () => {
         </div>
     )
 };
-
-export default ItemListContainer

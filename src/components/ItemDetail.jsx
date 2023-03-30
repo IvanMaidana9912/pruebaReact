@@ -1,9 +1,8 @@
-import React from "react";
-import Images from "./Image";
-import TreeId from "./TreeId";
+import {Images} from "./Image";
+import {TreeId} from "./TreeId";
 import dataItemsJson from "./json/dataItems.json"
 
-const ItemDetail = ({ items }) => {
+export const ItemDetail = ({ items }) => {
 
     return (
         <div className="card mb-3 pt-xl-5 w-100">
@@ -35,11 +34,10 @@ const ItemDetail = ({ items }) => {
             <div>
                 {
                     dataItemsJson.map((dataitem, index) =>
-                        dataitem.subId === items.id ? <li key={index}><TreeId identification={dataitem} /></li> : ""
+                        dataitem.subId === items.id ? <div className="text-decoration-none" key={index}><TreeId identification={dataitem} /></div> : ""
                     )
                 }
             </div>
         </div>
     )
 };
-export default ItemDetail;

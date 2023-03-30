@@ -1,5 +1,4 @@
-import React from "react";
-const Images = ({ itemImg }) => {
+export const Images = ({ itemImg }) => {
 
     return (
         <div className="row g-0">
@@ -18,5 +17,3 @@ const Images = ({ itemImg }) => {
         </div>
     )
 };
-
-export default Images;

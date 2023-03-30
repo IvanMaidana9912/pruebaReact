@@ -1,7 +1,6 @@
-import React from "react";
 import { Link, NavLink } from 'react-router-dom';
 
-const NavBar = () => {
+export const NavBar = () => {
     return (
         <div className="row">
             <div className='col'>
@@ -27,4 +26,3 @@ const NavBar = () => {
         </div>
     )
 }
-export default NavBar

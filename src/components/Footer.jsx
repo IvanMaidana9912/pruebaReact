@@ -1,8 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import Gift from "./Gift"
+import {Gift} from "./Gift"
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <div className="w-100">
             <div>< Gift /></div>
@@ -36,5 +35,3 @@ const Footer = () => {
         </div>
     )
 }
-
-export default Footer

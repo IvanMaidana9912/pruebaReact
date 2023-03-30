@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import ItemDetail from "./ItemDetail";
+import {ItemDetail} from "./ItemDetail";
 import dataItemsJSON from "./json/dataItems.json";
-import Loading from "./Loading";
+import {Loading} from "./Loading";
 
-const ItemDetailContainer = () => {
+export const ItemDetailContainer = () => {
     const [item, setItem] = useState({});
     const [loading, setLoading] = useState(true);
     const { id } = useParams();
@@ -29,5 +29,3 @@ const ItemDetailContainer = () => {
         </div>
     )
 }
-
-export default ItemDetailContainer;

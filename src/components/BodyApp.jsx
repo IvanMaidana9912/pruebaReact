@@ -1,10 +1,9 @@
-import React from 'react'
 import '../index.css'
-import Carrousel from './Carrousel';
-import BodyAppSection from './BodyAppSection';
-import BodyAppSection2 from './BodyAppSection2';
+import {Carrousel} from './Carrousel';
+import {BodyAppSection} from './BodyAppSection';
+import {BodyAppSection2} from './BodyAppSection2';
 
-function BodyApp() {
+export const BodyApp = () => {
   return (
     <>
       <div className='d-flex flex-column align-items-center'>
@@ -16,5 +15,3 @@ function BodyApp() {
     </>
   )
 }
-
-export default BodyApp

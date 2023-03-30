@@ -1,7 +1,6 @@
-import React from "react";
 import dataAnimation from './json/dataAnimation.json'
 
-const Gift = () => {
+export const Gift = () => {
     const srcData = dataAnimation[0].animation;
     return (
         <div className="classFooter3">
@@ -20,5 +19,3 @@ const Gift = () => {
         </div>
     )
 }
-
-export default Gift

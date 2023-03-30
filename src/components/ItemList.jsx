@@ -1,7 +1,6 @@
-import React from "react";
-import Item from "./Item";
+import {Item} from "./Item";
 
-const ItemList = ({ items }) => {
+export const ItemList = ({ items }) => {
     
     const primeraLetraMayuscula = `${items[0].category[0].toUpperCase()}${items[0].category.slice(1)}` 
     return (
@@ -21,5 +20,3 @@ const ItemList = ({ items }) => {
         </div>
     );
 };
-
-export default ItemList;
