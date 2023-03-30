@@ -3,7 +3,6 @@ import sectionJSON from "./json/bodySectionsData.json";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
-
 const BodyAppSection = ({ dataSection }) => {
   return (
     <>
