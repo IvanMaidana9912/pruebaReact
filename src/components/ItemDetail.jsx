@@ -34,8 +34,8 @@ const ItemDetail = ({ items }) => {
             </div>
             <div>
                 {
-                    dataItemsJson.map((subId, index) =>
-                        subId.subId === items.id ? <li key={index}><Treeid identification={subId} /></li> : ""
+                    dataItemsJson.map((dataitem, index) =>
+                        dataitem.subId === items.id ? <li key={index}><TreeId identification={dataitem} /></li> : ""
                     )
                 }
             </div>

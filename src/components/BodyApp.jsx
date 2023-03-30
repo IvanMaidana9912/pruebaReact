@@ -1,16 +1,16 @@
 import React from 'react'
 import './BodyApp.css'
 import Carrousel from './Carrousel';
-import Bodyappsection from './Bodyappsection';
-import Bodyappsection2 from './Bodyappsection2';
+import BodyAppSection from './BodyAppSection';
+import BodyAppSection2 from './BodyAppSection2';
 
 function BodyApp() {
   return (
     <>
       <Carrousel/>
-      <Bodyappsection dataSection={"1"}/>
-      <Bodyappsection2 dataSection={"2"}/>
-      <Bodyappsection dataSection={"3"}/>
+      <BodyAppSection dataSection={"1"}/>
+      <BodyAppSection2 dataSection={"2"}/>
+      <BodyAppSection dataSection={"3"}/>
     </>
   )
 }

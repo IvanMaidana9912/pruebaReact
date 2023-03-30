@@ -1,6 +1,6 @@
 import React from "react";
 
-const Treeid = ({ identification }) => {
+const TreeId = ({ identification }) => {
 
     return (
         <div className="card mb-3 p-xl-5 bg-dark" id="cardsSecundaries">
@@ -37,4 +37,4 @@ const Treeid = ({ identification }) => {
     )
 }
 
-export default Treeid;
+export default TreeId;

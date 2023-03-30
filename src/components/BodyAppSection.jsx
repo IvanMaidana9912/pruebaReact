@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 
-const Bodyappsection = ({ dataSection }) => {
+const BodyAppSection = ({ dataSection }) => {
     return (
 
     <>
@@ -38,4 +38,4 @@ const Bodyappsection = ({ dataSection }) => {
     )
 }
 
-export default Bodyappsection;
+export default BodyAppSection;

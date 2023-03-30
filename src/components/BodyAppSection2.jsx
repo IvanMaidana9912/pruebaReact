@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 
-const Bodyappsection2 = ({ dataSection }) => {
+const BodyAppSection2 = ({ dataSection }) => {
 
   return (
 
@@ -70,4 +70,4 @@ export default SistemasVRV;
 */
 
 
-export default Bodyappsection2;
+export default BodyAppSection2;
