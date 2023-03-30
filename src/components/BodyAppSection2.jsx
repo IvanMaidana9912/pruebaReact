@@ -7,7 +7,7 @@ export const BodyAppSection2 = ({ dataSection }) => {
   return (
     <>
       <Card className="mb-5 w-75">
-        {sectionJSON.map(sec => sec.section === dataSection ? <Card.Img key={sec.img} className='img' src={sec.img} alt='papa' /> : "")}
+        {sectionJSON.map(sec => sec.section === dataSection ? <Card.Img key={sec.img} className='img w-50' src={sec.img} alt='papa' /> : "")}
         <Card.Body>
           <Card.Subtitle>
             {sectionJSON.map(sec => sec.section === dataSection ? sec.concept : "")}
