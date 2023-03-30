@@ -8,7 +8,7 @@ export const BodyAppSection2 = ({ dataSection }) => {
     <>
       <Card className="mb-5 w-75">
         <div className="d-flex justify-content-center">
-          {sectionJSON.map(sec => sec.section === dataSection ? <Card.Img key={sec.img} className='img w-75' src={sec.img} alt='papa' /> : "")}
+          {sectionJSON.map(sec => sec.section === dataSection ? <Card.Img key={sec[0] + '-' + dataSection} className='img w-75' src={sec.img} alt='papa' /> : "")}
         </div>
         <Card.Body>
           <Card.Subtitle>
@@ -18,15 +18,15 @@ export const BodyAppSection2 = ({ dataSection }) => {
             {sectionJSON.map(sec => sec.section === dataSection ? sec.title : "")}
           </Card.Title>
           <Card.Text>
-            {sectionJSON.map(sec => sec.section === dataSection ? <div key={sec.id}>{sec.slogan}</div> : "")}
+            {sectionJSON.map(sec => sec.section === dataSection ? sec.slogan: "")}
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
           <ListGroup.Item>
-            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map(detail => <ul><li key={sec.id}><h3>{detail[0]}</h3></li><p>{detail[1]}</p></ul>) : "")}
+            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map(detail => <ul key={detail[0] + '-' + dataSection}><li><h3>{detail[0]}</h3></li><span>{detail[1]}</span></ul>) : "")}
           </ListGroup.Item>
           <ListGroup.Item>
-            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map(detail => <ul><li key={sec.id}><h3>{detail[0]}</h3></li><p>{detail[1]}</p></ul>) : "")}
+            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map(detail => <ul key={detail[0] + '-' + dataSection}><li><h3>{detail[0]}</h3></li><span>{detail[1]}</span></ul>) : "")}
           </ListGroup.Item>
         </ListGroup>
         {/* <Card.Body>
@@ -34,7 +34,6 @@ export const BodyAppSection2 = ({ dataSection }) => {
           <Card.Link href="#">Another Link</Card.Link>
         </Card.Body> */}
       </Card>
-
     </>
   )
 }
