@@ -1,14 +1,14 @@
 [
     {
         "id": "1",
-        "titulo": "Daikin Kirara Sense",
+        "title": "Daikin Kirara Sense",
         "slogan": "The evolution of interior comfort, with an intelligent sensor. Maximum efficiency Japanese technology for your home.",
         "img": [
             "https://i.imgur.com/tvk7ymw.png"
         ],
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-mini-sense.pdf",
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-mini-sense.pdf",
         "category": "residential",
-        "detalle": [
+        "details": [
             "It offers models with capacities of 2,500, 3,500, 5,000, and 6,000.",
             "Motion sensor to orient the air flow and anticipate the thermal load.",
             "Quickly reach the desired temperature, both in cold and heat modes.",
@@ -19,14 +19,14 @@
     },
     {
         "id": "2",
-        "titulo": "Daikin Inverter Mini Split",
+        "title": "Daikin Inverter Mini Split",
         "slogan": "Designed to air condition all household environments with the maximum level of energy efficiency.",
         "img": [
             "https://i.imgur.com/gfxX1M7.png"
         ],
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-mini-split.pdf",
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-mini-split.pdf",
         "category": "residential",
-        "detalle": [
+        "details": [
             "It offers models with capacities of 2,500, 3,500, 5,500 and 6,300W.",
             "Motion sensor to orient the air flow and anticipate the thermal load.",
             "Quickly reach the desired temperature, both in cold and heat modes.",
@@ -37,14 +37,14 @@
     },
     {
         "id": "3",
-        "titulo": "Daikin Premium Inverter Multi Split",
+        "title": "Daikin Premium Inverter Multi Split",
         "slogan": "A high-performance and energy-efficient outdoor unit that allows for connection of up to 5 different types of indoor units.",
         "img": [
             "https://i.imgur.com/mkhuBk9.png"
         ],
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-multi-split-premium.pdf",
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-multi-split-premium.pdf",
         "category": "residential",
-        "detalle": [
+        "details": [
             "It offers models with capacities of 2,500, 3,500, 5,000, 6,000 and 7,100W.",
             "A single outdoor unit can be connected to up to 5 indoor units.",
             "Includes air filtering and purification elements.",
@@ -55,14 +55,14 @@
     },
     {
         "id": "4",
-        "titulo": "Daikin Multi-Split Inverter",
+        "title": "Daikin Multi-Split Inverter",
         "slogan": "Ideal for air conditioning all the rooms in your home with a single outdoor unit.",
         "img": [
             "https://i.imgur.com/w4sVKB2.png"
         ],
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-multi-split.pdf",
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-multi-split.pdf",
         "category": "residential",
-        "detalle": [
+        "details": [
             "It offers models with a capacity of 2,500, 3,500, and 5,000W.",
             "It allows you to connect up to 4 indoor units.",
             "Includes air filtering and purification elements.",
@@ -73,13 +73,13 @@
     },
     {
         "id": "5",
-        "titulo": "VRV SMALL",
+        "title": "VRV SMALL",
         "slogan": "The most efficient system on the market in its small version that allows air conditioning up to 14 rooms with multiple interior designs.",
         "img": [
             "https://i.imgur.com/nhrYpUF.png"
         ],
         "category": "residential",
-        "detalle": [
+        "details": [
             "It has models with capacities from 4 to 9 HP.",
             "High performance coefficient and energy savings.",
             "6 types and 18 models of residential indoor units.",
@@ -91,25 +91,25 @@
     },
     {
         "id": "6",
-        "titulo": "Mini Chiller Inverter",
+        "title": "Mini Chiller Inverter",
         "slogan": "Hot water generator for heating your home.",
         "category": "residential",
         "img": [
             "https://i.imgur.com/h8wVYph.png",
             "https://i.imgur.com/v8yKiPu.png"
         ],
-        "detalle": [
+        "details": [
             "Do you need an air conditioning system that does not require natural gas?",
             "Mini Chiller Inverter: Maximum efficiency and care for the environment. Equipment with no emission of polluting gases."
         ]
     },
     {
         "subId": "6",
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/mini-chiller-A4-Agosto-2022-online.pdf",
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/mini-chiller-A4-Agosto-2022-online.pdf",
         "img": [
             "https://i.imgur.com/v8yKiPu.png"
         ],
-        "detalle": [
+        "details": [
             "Maximum efficiency and care for the environment. Equipment with no emission of polluting gases.",
             "Maximum efficiency with 0% combustion.",
             "Heat pump system: AEROTHERMY.",
@@ -126,13 +126,13 @@
     },
     {
         "subId": "6",
-        "titulo": "",
+        "title": "",
         "slogan": "",
-        "catalogo": "",
+        "catalog": "",
         "img": [
             "https://i.imgur.com/8HcCCX1.jpg"
         ],
-        "detalle": [
+        "details": [
             "Silence is Comfort",
             "Our residential mini chiller was designed with the end user in mind.",
             "We worked on 8 different points of noise reduction technology to achieve one of the quietest systems on the market.",
@@ -143,10 +143,10 @@
     },
     {
         "subId": "6",
-        "titulo": "Ducted Fan Coil",
+        "title": "Ducted Fan Coil",
         "slogan": "Maximum efficiency taking up the smallest possible space. Its extremely silent units adapt easily to any environment.",
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/fancoil-A4-agosto-2022-online.pdf",
-        "detalle": [
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/fancoil-A4-agosto-2022-online.pdf",
+        "details": [
             "Slim design, only 24cm high, is the ideal solution for small spaces.",
             "Invisible air conditioning embedded in the ceiling.",
             "Optimal air distribution.",
@@ -159,7 +159,7 @@
     },
     {
         "id": "7",
-        "titulo": "Sky Air Inverter\nIs it on?",
+        "title": "Sky Air Inverter\nIs it on?",
         "slogan": "It's not heard. It doesn't impact the environment. And it ensures the perfect climate. Discover the new generation of sustainable inverter equipment.",
         "category": "commercial",
         "img": [
@@ -176,7 +176,7 @@
         "img": [
             "https://i.imgur.com/A31IPmS.jpg"
         ],
-        "detalle": [
+        "details": [
             "100% Sustainable Equipment",
             "In 2012, DAIKIN discovered R-32, the most efficient refrigerant generation on the market today, with significant advantages in terms of efficiency, profitability, and environmental care.",
             "The impact that this refrigerant has on global warming is one-third that of conventional refrigerants. This makes it the most efficient on the market.",
@@ -189,8 +189,8 @@
         "img": [
             "https://i.imgur.com/vLOhGQr.jpg"
         ],
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
-        "detalle": [
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
+        "details": [
             "Inverter Under Silhouette",
             "The most complete line of under silhouette equipment for commercial applications:",
             "Capacities of 3 and 5TR.",
@@ -205,8 +205,8 @@
         "img": [
             "https://i.imgur.com/L6Ws7ya.jpg"
         ],
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
-        "detalle": [
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
+        "details": [
             "Cassette Inverter",
             "The new generation of Daikin Cassette units has arrived in Argentina. Maximum innovation and performance.",
             "Capacities of 3 and 5tr.",
@@ -217,8 +217,8 @@
     },
     {
         "subId": "7",
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
-        "detalle": [
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2022/12/skyr32%20on%20line_compressed.pdf",
+        "details": [
             "Inverter Floor Ceiling",
             "Sky Air Advance also offers high-performance Inverter Ceiling options. Discover its benefits:",
             "Capacities of 3 and 5TR.",
@@ -229,7 +229,7 @@
     },
     {
         "id": "8",
-        "titulo": "Sky Air",
+        "title": "Sky Air",
         "slogan": "The most complete line of solutions in separate systems for commercial applications.",
         "category": "commercial",
         "img": [
@@ -246,8 +246,8 @@
         "img": [
             "https://i.imgur.com/vLOhGQr.jpg"
         ],
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/SKY-diptico-original-A4-comprimido.pdf",
-        "detalle": [
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/SKY-diptico-original-A4-comprimido.pdf",
+        "details": [
             "Under Silhouette",
             "The most complete line of under silhouette equipment for commercial applications:",
             "Capacities of 2, 3, 4 and 5TR.",
@@ -261,8 +261,8 @@
         "img": [
             "https://i.imgur.com/L6Ws7ya.jpg"
         ],
-        "catalogo": "",
-        "detalle": [
+        "catalog": "",
+        "details": [
             "Cassette",
             "The new generation of Daikin Cassette units with excellent air distribution.",
             "Capacity 4TR.",
@@ -277,8 +277,8 @@
         "img": [
             "https://i.imgur.com/9EEdEC5.jpg"
         ],
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/SKY-diptico-original-A4-comprimido.pdf",
-        "detalle": [
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2021/06/SKY-diptico-original-A4-comprimido.pdf",
+        "details": [
             "Floor Ceiling",
             "Sky Air also presents high-performance Floor and Ceiling options. Discover their benefits:",
             "Capacities of 3 and 5TR.",
@@ -290,7 +290,7 @@
     },
     {
         "id": "9",
-        "titulo": "Packaged",
+        "title": "Packaged",
         "slogan": "Wide range of solutions for commercial and industrial projects.",
         "category": "commercial",
         "img": [
@@ -299,35 +299,35 @@
     },
     {
         "subId": "9",
-        "detalle": [
+        "details": [
             "Commercial Split Systems",
             "Heat pump units with modular condensers (6-50TR). Refrigerant R-407c."
         ]
     },
     {
         "subId": "9",
-        "detalle": [
+        "details": [
             "Gas Rooftops",
             "Gas-fired heat pump units with refrigerant R-410a (7.5-20TR)."
         ]
     },
     {
         "subId": "9",
-        "detalle": [
+        "details": [
             "Heat Pump Rooftops",
             "Heat pump units with refrigerant R-407c (7-35TR) and refrigerant R-410a (8-22TR)."
         ]
     },
     {
         "id": "10",
-        "titulo": "Control Systems",
+        "title": "Control Systems",
         "slogan": "Air equipment management has never been easier. Discover the ultimate level of control:",
         "img": [
             "https://i.imgur.com/EvmL4ja.png"
         ],
-        "catalogo": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-sistemas-de-control.pdf",
+        "catalog": "https://www.daikin-argentina.com/wp-content/uploads/2021/03/daikin-sistemas-de-control.pdf",
         "category": "commercial",
-        "detalle": [
+        "details": [
             "The area configuration simplifies the detailed management of the VRV system.",
             "Displays the origin of previous unit operations.",
             "Remote access to the equipment with the same type of Intelligent Touch Manager displays.",

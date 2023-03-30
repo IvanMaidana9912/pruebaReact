@@ -8,7 +8,7 @@ const ItemDetailContainer = () => {
     const [item, setItem] = useState({});
     const [loading, setLoading] = useState(true);
     const { id } = useParams();
-    
+
     useEffect(() => {
         const promesa = new Promise((resolve) => {
             setTimeout(() => {

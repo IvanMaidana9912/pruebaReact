@@ -7,13 +7,13 @@ const TreeId = ({ identification }) => {
             <div className="row g-0">
                 <div className="col-md-4">
                     {
-                        identification.img ? <img src={identification.img[0]} className="img-fluid rounded-start" alt={identification.titulo} /> : ""
+                        identification.img ? <img src={identification.img[0]} className="img-fluid rounded-start" alt={identification.title} /> : ""
                     }
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
                         {
-                            identification.titulo ? <h5 className="card-title">{identification.titulo}</h5> : ""
+                            identification.title ? <h5 className="card-title">{identification.title}</h5> : ""
                         }
                         {
                             identification.slogan ? <p className="card-text">{identification.slogan}</p> : ""
@@ -21,13 +21,13 @@ const TreeId = ({ identification }) => {
 
                         <ul>
                             {
-                                identification.detalle ? identification.detalle.map((item, index) =>
+                                identification.details ? identification.details.map((item, index) =>
                                     <li className="text-start" key={index}>{item}</li>) : ""
                             }
                         </ul>
                         <div className="d-flex justify-content-center">
                             {
-                                identification.catalogo ? <button onClick={() => { window.open(identification.catalogo, '_blank') }} className="btn btn-info mt-5">Download Catalog</button> : ""
+                                identification.catalog ? <button onClick={() => { window.open(identification.catalog, '_blank') }} className="btn btn-info mt-5">Download Catalog</button> : ""
                             }
                         </div>
                     </div>

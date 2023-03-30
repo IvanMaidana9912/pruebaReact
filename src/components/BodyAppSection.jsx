@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 const BodyAppSection = ({ dataSection }) => {
+
   return (
     <>
       <Card className="mb-5 w-75">
