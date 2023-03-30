@@ -7,7 +7,9 @@ export const BodyAppSection = ({ dataSection }) => {
   return (
     <>
       <Card className="mb-5 w-75">
-        {sectionJSON.map(sec => sec.section === dataSection ? <Card.Img key={sec.img} className='img w-50' src={sec.img} alt={sec.concept} /> : "")}
+        <div className="d-flex justify-content-center">
+          {sectionJSON.map(sec => sec.section === dataSection ? <Card.Img key={sec.img} className='img w-75' src={sec.img} alt={sec.concept} /> : "")}
+        </div>
         <Card.Body>
           <Card.Subtitle>
             {sectionJSON.map(sec => sec.section === dataSection ? sec.concept : "")}
