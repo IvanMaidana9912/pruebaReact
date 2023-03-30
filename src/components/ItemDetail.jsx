@@ -1,6 +1,6 @@
 import React from "react";
 import Images from "./Image";
-import Treeid from "./Treeid";
+import TreeId from "./TreeId";
 import dataItemsJson from "./json/dataItems.json"
 
 const ItemDetail = ({ items }) => {
