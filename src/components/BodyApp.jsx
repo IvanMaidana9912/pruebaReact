@@ -1,5 +1,5 @@
 import React from 'react'
-import './BodyApp.css'
+import '../index.css'
 import Carrousel from './Carrousel';
 import BodyAppSection from './BodyAppSection';
 import BodyAppSection2 from './BodyAppSection2';
