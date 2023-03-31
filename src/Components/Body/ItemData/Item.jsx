@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 
-export const Item = ( {items} ) => {
+export const Item = ({ items }) => {
     // const confirm = parseInt(items.id) <= 10  ? "/item/" + items.id : "/item/ "
-
     return (
         <Link to={"/item/" + items.id} className="text-decoration-none text-dark">
             <div className="card border border-0 card-body text-center" id="itemContainer">

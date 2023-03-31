@@ -1,9 +1,8 @@
-import sectionJSON from "./json/bodySectionsData.json"
+import sectionJSON from "../../../BBDD/bodySectionsData.json"
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 export const BodyAppSection2 = ({ dataSection }) => {
-
   return (
     <>
       <Card className="mb-5 w-75">
@@ -18,7 +17,7 @@ export const BodyAppSection2 = ({ dataSection }) => {
             {sectionJSON.map(sec => sec.section === dataSection ? sec.title : "")}
           </Card.Title>
           <Card.Text>
-            {sectionJSON.map(sec => sec.section === dataSection ? sec.slogan: "")}
+            {sectionJSON.map(sec => sec.section === dataSection ? sec.slogan : "")}
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">

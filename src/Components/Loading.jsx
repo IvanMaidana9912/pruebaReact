@@ -4,7 +4,7 @@ export const Loading = () => {
             <div className="row">
                 <div className="col text-center ">
                     <div className="spinner-grow text-danger d-flex justify-content-center align-content-center align-items-center" role="status">
-                    <img className="" src="https://i.imgur.com/J4D1HTC.jpg" width={150} height={150} alt="photo"></img>
+                        <img className="" src="https://i.imgur.com/J4D1HTC.jpg" width={150} height={150} alt="photo"></img>
                     </div>
                 </div>
             </div>

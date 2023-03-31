@@ -1,9 +1,8 @@
-import sectionJSON from "./json/bodySectionsData.json";
+import sectionJSON from "../../../BBDD/bodySectionsData.json";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 export const BodyAppSection = ({ dataSection }) => {
-
   return (
     <>
       <Card className="mb-5 w-75">

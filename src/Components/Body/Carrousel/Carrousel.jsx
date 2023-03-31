@@ -1,4 +1,4 @@
-import dataCarrousel from './json/dataCarrousel.json'
+import dataCarrousel from '../../../BBDD/dataCarrousel.json'
 
 export const Carrousel = () => {
     return (

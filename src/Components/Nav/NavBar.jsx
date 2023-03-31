@@ -8,7 +8,7 @@ export const NavBar = () => {
                     <div className=" container-fluid ">
                         <div className="row">
                             <Link className="navbar-brand" to={"/"}>
-                                <img src={"https://i.imgur.com/xDoLQBr.jpg"} alt={"logo"} className="w-50"/>
+                                <img src={"https://i.imgur.com/xDoLQBr.jpg"} alt={"logo"} className="w-50" />
                             </Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>

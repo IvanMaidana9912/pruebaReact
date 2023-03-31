@@ -1,6 +1,6 @@
-import {Images} from "./Image";
-import {TreeId} from "./TreeId";
-import dataItemsJson from "./json/dataItems.json"
+import { Images } from "../Images";
+import { TreeId } from "./TreeId/TreeId";
+import dataItemsJson from "../../../../BBDD/dataItems.json"
 
 export const ItemDetail = ({ items }) => {
 

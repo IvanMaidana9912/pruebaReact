@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import {ItemDetail} from "./ItemDetail";
-import dataItemsJSON from "./json/dataItems.json";
-import {Loading} from "./Loading";
+import { ItemDetail } from "./ItemDetail";
+import dataItemsJSON from "../../../../BBDD/dataItems.json";
+import { Loading } from "../../../Loading";
 
 export const ItemDetailContainer = () => {
     const [item, setItem] = useState({});

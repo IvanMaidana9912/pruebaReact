@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,31 +12,10 @@ code {
     monospace;
 }
 
-.ul-list {
-  display: flex;
-  flex-direction: row;
-}
-
-.ul-list-a, .ul-list-b {
-  display: flex;
-  flex-direction: column;
-}
-
-.section-vrv, .section-inverter, .section-eficiencia {
-  margin: 50px;
-  display: flex;
-  flex-direction: row;
-}
-
-.div-vrv {
-  display: flex;
-  flex-direction: column;
-}
-
 .classFooter {
   width: 80% !important;
   height: auto;
-  position:absolute;
+  position: absolute;
   z-index: 1;
   display: flex;
   justify-content: space-between;
@@ -51,19 +26,21 @@ code {
   justify-content: center;
   align-items: center;
 }
+
 .classFooter2 {
   width: 35%;
-  height: auto; 
+  height: auto;
   max-height: 100%;
 }
+
 .classFooter3 {
   margin-top: 150px;
 }
 
 .classFooter1 {
-  width: 100%; 
-  height: 100%; 
-  object-fit: cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   top: 0;
   left: 0;
   z-index: -1;
@@ -99,6 +76,8 @@ code {
 
 .container {
   min-height: 100vh;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 #cardsSecundaries {
@@ -137,9 +116,11 @@ code {
 .navColorLetter {
   transition: 500ms;
 }
+
 .navColorLetter:hover {
   color: #bf9a15;
 }
+
 .navColorLogo {
   background-color: #000000;
 }

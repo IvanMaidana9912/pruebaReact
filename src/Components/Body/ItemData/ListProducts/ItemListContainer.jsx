@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import {ItemList} from "./ItemList";
-import dataItemsJSON from "./json/dataItems.json";
-import {Loading} from "./Loading";
+import { ItemList } from "./ItemList";
+import dataItemsJSON from "../../../../BBDD/dataItems.json";
+import { Loading } from "../../../Loading";
 
 
 export const ItemListContainer = () => {
@@ -23,7 +23,7 @@ export const ItemListContainer = () => {
 
     return (
         <div className="container">
-            {loading ? <Loading/> : <ItemList items={items} />}
+            {loading ? <Loading /> : <ItemList items={items} />}
         </div>
     )
 };

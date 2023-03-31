@@ -1,7 +1,7 @@
-import '../index.css'
-import {Carrousel} from './Carrousel';
-import {BodyAppSection} from './BodyAppSection';
-import {BodyAppSection2} from './BodyAppSection2';
+import '../../Css/index.css'
+import { Carrousel } from './Carrousel/Carrousel';
+import { BodyAppSection } from './Sections/BodyAppSection';
+import { BodyAppSection2 } from './Sections/BodyAppSection2';
 
 export const BodyApp = () => {
   return (

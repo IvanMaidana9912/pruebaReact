@@ -1,6 +1,6 @@
-import dataAnimation from './json/dataAnimation.json'
+import dataAnimation from '../../../BBDD/dataAnimation.json'
 
-export const Gift = () => {
+export const Animation = () => {
     const srcData = dataAnimation[0].animation;
     return (
         <div className="classFooter3">
