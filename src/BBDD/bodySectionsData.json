@@ -1,90 +1,90 @@
 [
     {
         "section": "1",
-        "concept": "A new concept",
-        "title": "A new generation of air equipment",
-        "slogan": "We are experts in air conditioning. Therefore, we developed an ideal option for each type of application.",
+        "concept": "Un nuevo concepto",
+        "title": "Una nueva generación de equipos de aire",
+        "slogan": "Somos expetos en aire acondicionado. Por eso, desarrollamos una opción ideal para cada tipo de aplicación.",
         "img": "https://i.imgur.com/kvfEznB.jpg",
         "details": [
             [
-                "Mini and Multi Split.",
-                "Ceiling-mounted \"Cassette\" units.",
-                "Under  silhouette.",
+                "Mini y Multi Split.",
+                "Cassette.",
+                "Baja silueta.",
                 "Rooftop.",
-                "Chillers.",
-                "Air handlers."
+                "Enfriadoras (chillers).",
+                "Manejadoras de aire."
             ],
             [
-                "VRV systems.",
-                "Floor/Roof.",
-                "Heater.",
-                "Control systems.",
-                "Applied systems.",
+                "Sistemas VRV.",
+                "Piso / Techo.",
+                "Calefactor.",
+                "Sistemas de control.",
+                "Sistemas aplicados.",
                 "Fan coils."
             ]
         ]
     },
     {
         "section": "2",
-        "concept": "Lower consumption guaranteed",
-        "title": "VRV systems for home and office.",
-        "slogan": "We are creators of VRV technology, the most efficient on the market. We have an ideal model for each application:",
+        "concept": "Menor consumo garantizado",
+        "title": "Sistemas VRV para el hogar y la oficina",
+        "slogan": "Somos creadores de la tecnología VRV, la más eficiente del mercado. Contamos con un modelo ideal para cada aplicación:",
         "img": "https://i.imgur.com/EB3RBFS.jpg",
         "details": [
             [
                 [
                     "VRVH",
-                    "Heat pump: Cold heat system by pump (8-60HP)."
+                    "Heat pump: Sistema frío calor por bomba (8-60HP)."
                 ],
                 [
                     "VRVQ",
-                    "Heat pump: Cold heat pump system to \nreplace R-22/R-407 (8-48HP)."
+                    "Heat pump: Sistema frío calor por bomba para reemplazo de R-22 / R-407 (8-48HP)."
                 ],
                 [
                     "VRV Invisible",
-                    "Heat pump: Hot cold system. Split outdoor unit for indoor installation (8HP)."
+                    "Heat pump: Sistema frío calor. Unidad exterior dividida para instalación interior (8HP)."
                 ],
                 [
                     "Hidrobox",
-                    "Heat pump: Hot cold system. Split outdoor unit for indoor installation (8HP)."
+                    "Heat pump: Sistema frío calor. Unidad exterior dividida para instalación interior (8HP)."
                 ]
             ],
             [
                 [
                     "VRVR",
-                    "Heat recovery: Simultaneous hot and cold system (8- 60HP)."
+                    "Heat recovery: Sistema frío calor simultaneo (8- 60HP)."
                 ],
                 [
                     "VRV Small",
-                    "Heat pump: Cold heat system by pump (4-9HP)."
+                    "Heat pump: Sistema frío calor por bomba (4-9HP)."
                 ],
                 [
                     "Altherma",
-                    "Heat pump: Cold heat system by pump (8-60hp)."
+                    "Heat pump: Sistema frío calor por bomba (8-60hp)."
                 ],
                 [
-                    "Treatment Unit",
-                    "Air handlers DX (UTA) (8-54HP)."
+                    "Unidad de tratamiento",
+                    "Manejadoras de aire DX (UTA) (8-54HP)."
                 ]
             ]
         ]
     },
     {
         "section": "3",
-        "concept": "Service department",
-        "title": "We are here to help you",
-        "slogan": "We provide specialized personal technical support services and end users.",
+        "concept": "Departamento de servicios",
+        "title": "Estamos para ayudarte",
+        "slogan": "Brindamos servicios de soporte técnica personal especializado y usuarios finales",
         "img": "https://i.imgur.com/V7EqHWd.jpg",
         "details": [
             [
-                "General services.",
-                "Spare parts.",
-                "Official guarantee."
+                "Servicios generales.",
+                "Repuestos.",
+                "Garantía oficial."
             ],
             [
-                "Maintenance services.",
-                "Code errors.",
-                "Frequent questions."
+                "Servicios de mantenimiento.",
+                "Errores decódigo.",
+                "Preguntas frecuentes."
             ]
         ]
     }
