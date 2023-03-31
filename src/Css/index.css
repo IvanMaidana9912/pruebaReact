@@ -119,6 +119,11 @@ code {
   color: #ffffff;
   transition: 500ms;
 }
+
+.navColorLetter:hover {
+  color: #bf9a15;
+}
+
 .navColorLetter:nth-child(2) {
   margin-right: 30px;
 }
@@ -139,9 +144,10 @@ code {
   /* background-color: white; */
   border-radius: 5px;
 }
-.navColorLetter:hover {
+
+/* .navColorLetter:active {
   color: #bf9a15;
-}
+} */
 
 .navColorLogo {
   background-color: #000000;
@@ -153,6 +159,12 @@ code {
 
 
 /* @MEDIAQUERIES */
+
+@media screen and (min-width: 300px) and (max-width: 479px){
+  #imageNav img {
+    content: url("https://i.imgur.com/QyyQAjn.jpg") !important;
+  }
+}
 
 /* @media screen and (min-width: 300px) and (max-width: 479px)
 {
