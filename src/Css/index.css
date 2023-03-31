@@ -75,10 +75,11 @@ code {
 }
 
 .container {
-  /* min-height: 100vh;
-  margin-left: 0px;
-  margin-right: 0px; */
   margin: auto;
+}
+
+.containerBody {
+  min-height: 100vh;
 }
 
 #cardsSecundaries {
@@ -115,9 +116,29 @@ code {
 }
 
 .navColorLetter {
+  color: #ffffff;
   transition: 500ms;
 }
+.navColorLetter:nth-child(2) {
+  margin-right: 30px;
+}
 
+.navToggle{
+  margin-right: 20px !important;
+  width: 30px;
+  height: 30px;
+  background-color: #bf9a15;
+  padding-top: 2px;
+  padding-left: 4px;
+}
+
+.navbar-toggler-icon {
+  width: 19px;
+  height: 19px;
+  padding-right: 2px;
+  /* background-color: white; */
+  border-radius: 5px;
+}
 .navColorLetter:hover {
   color: #bf9a15;
 }

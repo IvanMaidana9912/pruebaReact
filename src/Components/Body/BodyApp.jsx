@@ -6,7 +6,7 @@ import { BodyAppSection2 } from './Sections/BodyAppSection2';
 export const BodyApp = () => {
   return (
     <>
-      <div className='d-flex flex-column align-items-center'>
+      <div className='d-flex flex-column align-items-center containerBody'>
         <Carrousel />
         <BodyAppSection dataSection={"1"} />
         <BodyAppSection2 dataSection={"2"} />
