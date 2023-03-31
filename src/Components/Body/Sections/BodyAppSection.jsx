@@ -5,7 +5,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 export const BodyAppSection = ({ dataSection }) => {
   return (
     <>
-      <Card className="mb-5 w-75">
+      <Card className="mb-5 w-75 border-0">
         <div className="d-flex justify-content-center">
           {sectionJSON.map(sec => sec.section === dataSection ? <Card.Img key={sec.img} className='img w-75' src={sec.img} alt={sec.concept} /> : "")}
         </div>
@@ -21,12 +21,14 @@ export const BodyAppSection = ({ dataSection }) => {
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
-          <ListGroup.Item>
-            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => <li key={index}>{detail}</li>) : "")}
-          </ListGroup.Item>
-          <ListGroup.Item>
-            {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => <li key={index}>{detail}</li>) : "")}
-          </ListGroup.Item>
+          <div className="d-flex justify-content-center">
+            <ListGroup.Item className="border-0">
+              {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => <li key={index}>{detail}</li>) : "")}
+            </ListGroup.Item>
+            <ListGroup.Item className="border-0">
+              {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => <li key={index}>{detail}</li>) : "")}
+            </ListGroup.Item>
+          </div>
         </ListGroup>
         {/* <Card.Body>
           <Card.Link href="#">Card Link</Card.Link>
