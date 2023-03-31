@@ -1,0 +1,46 @@
+En este documento se reflejarán los objetivos restantes para terminar el proyecto:
+
+    1. Responsive:
+        a- Navbar:
+            1. Menú hamburguesa.
+            2. Tamaño del ícono.
+        b- Footer:
+            1. Contact.
+            2. Tamaño del ícono.
+            3. Animación - width.
+        c- items:
+            1. Detalles.
+            2. Card responsive (width de las cards, wrap y que quede prolijo *Desktop - Movile*).
+        d- Body:
+            1. Tamaño total de la página.
+
+    2. Idioma:
+        -Averiguar el ídioma predeterminado, si es en inglés hay que correguir/averiguar terminologia técnica de los nombres.
+
+    3. Contenido
+        -Averiguar si hay que agregar mas contenido (Imágenes, texto, etc.).
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Si hay más tareas que registrar, se registran arriba.
+
+Si hay tareas realizadas, para tener un registro que podamos verlo todos tan solo agreguemos "***" a un lado de la tarea realizada. Ejemplo:
+
+    a- Navbar:
+        1. Menú hamburguesa.
+        2. Tamaño del ícono. *** (Queremos decir que ya se realizó).
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Avisar a un lado de cada tarea quien se va a ocupar y del componente en especifico con "/nombre - componente/". Ejemplo:
+
+    c- items:
+        1. Detalles. /Iván - ItenDetailConteiner.jsx"
+        2. Card responsive (width de las cards, wrap y que quede prolijo *Desktop - Movile*).
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Este método podremos usarlo en futuros proyectos mientras seamos pocos. Acá registramos y en Wpp lo podemos hablar. Esto es como un reemplazo de Jira a menor escala.*
+
+Intentemos en proyectos grandes (si usamos CodeSpace) De utilizar la pestaña lateral iquierda que se llama "GitHub".
+Al lado de "SOLICITUDES DE INCORPORACIÓN DE CAMBIOS" se pueden "CREAR SOLICITUDES DE CAMBIO".
+Esto realizará un pull request en donde se podrá evaluar los cambios realizados. Repito podriamos usarlo en proyectos más elaborados.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
