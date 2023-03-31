@@ -8,10 +8,10 @@ export const ItemList = ({ items }) => {
             <div>
                 <p className="paraphStyle"><b>{primeraLetraMayuscula}</b></p>
             </div>
-            <div className="row d-flex align-items-baseline">
+            <div className="d-inline-flex justify-content-center flex-wrap">
                 {
                     items.map((item, index) =>
-                        <div className="col my-1 itemListWidth" key={index}>
+                        <div className="" key={index}>
                             <Item items={item} />
                         </div>
                     )
