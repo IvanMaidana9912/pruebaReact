@@ -16,10 +16,10 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav>
                         <Nav.Link key={'/category/residential'} as={Link} to={'/categoria/residencial'} className='navColorLetter'>
-                            {'Residential'}
+                            {'Residencial'}
                         </Nav.Link>
                         <Nav.Link key={'/category/commercial'} as={Link} to={'/categoria/comercial'} className='navColorLetter'>
-                            {'Commercial'}
+                            {'Comercial'}
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
