@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { NavBar } from './Components/Nav/NavBar';
 import { Footer } from './Components/Footer/Footer';
 import { ItemDetailContainer } from './Components/Body/ItemData/DetailsOfProducts/ItemDetailContainer';
 import { ItemListContainer } from './Components/Body/ItemData/ListProducts/ItemListContainer';
 import { Error404 } from "./Components/Body/Error/Error404";
 import { BodyApp } from './Components/Body/BodyApp';
+import NavBar from './Components/Nav/NavBar';
 
 export const App = () => {
   return (

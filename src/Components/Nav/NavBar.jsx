@@ -1,28 +1,39 @@
 import { Link, NavLink } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-export const NavBar = () => {
-    return (
-        <div className="row">
-            <div className='col'>
-                <nav className="navbar navbar-expand-lg navColorLogo">
-                    <div className=" container-fluid ">
-                        <div className="row">
-                            <Link className="navbar-brand" to={"/"}>
-                                <img src={"https://i.imgur.com/xDoLQBr.jpg"} alt={"logo"} className="w-50" />
-                            </Link>
-                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon"></span>
-                            </button>
-                        </div>
-                        <div className="collapse navbar-collapse ">
-                            <ul className="navbar-nav navHover nav-item m-3">
-                                <NavLink className="nav-item nav-link text-white" to={"/category/residential"}><span className="navColorLetter">Residential</span></NavLink>
-                                <NavLink className="nav-item nav-link text-white" to={"/category/commercial"}><span className="navColorLetter">Commercial</span></NavLink>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    )
+const pages = [
+  {label: 'Home', id:0, link: '/' },
+  {label: 'Residencial', id:1, link: '/category/residential' },
+  {label: 'Comercial', id:2, link: '/category/commercial' },
+
+]
+
+
+      export default function NavBar() {
+      
+        return (
+          <>
+          <Navbar bg="black" expand="lg" className='navbar'>
+            <Container>
+            <Link className="navbar-brand" to={"/"}>
+              <img src={"https://i.imgur.com/xDoLQBr.jpg"} alt={"logo"} className="w-50" />
+            </Link>
+              <Navbar.Brand href="/">
+                </Navbar.Brand>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" style={ {backgroundColor: 'white'} } />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav>
+                  {pages.map((page)=> (
+                    <Nav.Link key={page.link} as={Link} to={page.link} style={{ color: 'white'}}>
+                      {page.label}
+                    </Nav.Link>
+                  ))}
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
+          </>
+        )
 }
