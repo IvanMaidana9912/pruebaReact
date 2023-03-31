@@ -15,10 +15,10 @@ export const NavBar = () => {
                 </Container>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav>
-                        <Nav.Link key={'/category/residential'} as={Link} to={'/category/residential'} className='navColorLetter'>
+                        <Nav.Link key={'/category/residential'} as={Link} to={'/categoria/residencial'} className='navColorLetter'>
                             {'Residential'}
                         </Nav.Link>
-                        <Nav.Link key={'/category/commercial'} as={Link} to={'/category/commercial'} className='navColorLetter'>
+                        <Nav.Link key={'/category/commercial'} as={Link} to={'/categoria/comercial'} className='navColorLetter'>
                             {'Commercial'}
                         </Nav.Link>
                     </Nav>
