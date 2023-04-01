@@ -20,10 +20,7 @@ export const Footer = () => {
                 </div>
                 <div className="mb-4 col d-flex flex-row text-end align-items-center justify-content-center">
                     <Link onClick={() => { window.open("https://web.whatsapp.com/", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="logo-whatsapp"></ion-icon></Link>
-                    <Link onClick={() => { window.open("https://twitter.com/?lang=es", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="logo-twitter"></ion-icon></Link>
-                    <Link onClick={() => { window.open("https://www.google.com/", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="logo-google"></ion-icon></Link>
                     <Link onClick={() => { window.open("https://www.instagram.com/", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="logo-instagram"></ion-icon></Link>
-                    <Link onClick={() => { window.open("https://www.linkedin.com/feed/", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="logo-linkedin"></ion-icon></Link>
                 </div>
                 <div>
                     <div>

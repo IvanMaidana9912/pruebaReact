@@ -21,6 +21,9 @@ export const NavBar = () => {
                         <Nav.Link key={'/category/commercial'} as={Link} to={'/categoria/comercial'} className='navColorLetter'>
                             {'Comercial'}
                         </Nav.Link>
+                        <Nav.Link key={'/category/services'} as={Link} to={'/categoria/services'} className='navColorLetter'>
+                            {'Servicios'}
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
