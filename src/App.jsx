@@ -10,7 +10,7 @@ import Services from './Components/Body/services/Services';
 export const App = () => {
   return (
     <BrowserRouter>
-      <div className='container'>
+      <div className=''>
         <NavBar />
           <Routes>
             <Route exact path={"/"} element={< BodyApp />} />

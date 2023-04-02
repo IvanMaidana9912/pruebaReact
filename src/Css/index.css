@@ -13,7 +13,7 @@ code {
 }
 
 .classFooter {
-  width: 80% !important;
+  /* width: 80% !important; */
   height: auto;
   position: absolute;
   z-index: 1;
@@ -78,9 +78,9 @@ code {
   margin: auto;
 }
 
-.containerBody {
+/* .containerBody {
   min-height: 100vh;
-}
+} */
 
 #cardsSecundaries {
   color: white;
@@ -124,9 +124,9 @@ code {
   color: #bf9a15;
 }
 
-.navColorLetter:nth-child(2) {
+/* .navColorLetter:nth-child(2) {
   margin-right: 30px;
-}
+} */
 
 .navToggle{
   margin-right: 20px !important;
@@ -157,6 +157,10 @@ code {
   width: 20% !important;
 }
 
+.nav-container {
+  margin: auto;
+  background-color: black;
+}
 
 /* @MEDIAQUERIES */
 
@@ -164,7 +168,11 @@ code {
   #imageNav img {
     content: url("https://i.imgur.com/QyyQAjn.jpg") !important;
   }
+  .list-group-section {
+    display: none;
+  }
 }
+
 
 /* @media screen and (min-width: 300px) and (max-width: 479px)
 {

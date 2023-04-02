@@ -20,7 +20,7 @@ export const BodyAppSection2 = ({ dataSection }) => {
             {sectionJSON.map(sec => sec.section === dataSection ? sec.slogan : "")}
           </Card.Text>
         </Card.Body>
-        <ListGroup className="list-group-flush">
+        <ListGroup className="list-group-flush list-group-section">
           <div className="d-flex justify-content-center">
             <ListGroup.Item className="w-50 border-0">
               {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map(detail => <ul key={detail[0] + '-' + dataSection}><li><h3>{detail[0]}</h3></li><span>{detail[1]}</span></ul>) : "")}

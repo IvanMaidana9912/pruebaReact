@@ -6,7 +6,7 @@ export const ItemList = ({ items }) => {
     return (
         <div>
             <div>
-                <p className="paraphStyle"><b>{primeraLetraMayuscula}</b></p>
+                {/* <p className="paraphStyle"><b>{primeraLetraMayuscula}</b></p> */}
             </div>
             <div className="d-inline-flex justify-content-center flex-wrap">
                 {

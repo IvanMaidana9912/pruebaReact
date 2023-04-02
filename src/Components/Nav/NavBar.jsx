@@ -6,15 +6,16 @@ import Navbar from 'react-bootstrap/Navbar';
 export const NavBar = () => {
     return (
         <>
-            <Navbar bg="black" expand="lg" >
+        <div className='nav-container'>
+            <Navbar bg="black" expand="lg" style={{ maxWidth: '90%', margin: 'auto'}} >
                 <Container className='navbar d-flex flex-nowrap'>
                     <Link className="navbar-brand" to={"/"}>
                         <img src={"https://i.imgur.com/xDoLQBr.jpg"} alt={"logo"} className="w-50" id="imageNav" />
                     </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className='navToggle' />
                 </Container>
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav>
+                <Navbar.Collapse id="basic-navbar-nav"  style={{ justifyContent: 'flex-end'}} >
+                    <Nav style={{alignItems: 'center'}}>
                         <Nav.Link key={'/category/residential'} as={Link} to={'/categoria/residencial'} className='navColorLetter'>
                             {'Residencial'}
                         </Nav.Link>
@@ -27,6 +28,7 @@ export const NavBar = () => {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
+        </div>
         </>
     )
 }
