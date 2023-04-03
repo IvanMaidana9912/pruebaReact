@@ -5,13 +5,14 @@ import ListGroup from 'react-bootstrap/ListGroup';
 export const BodyAppSection = ({ dataSection }) => {
   return (
     <>
-    <div className="container" style={{margin: 'auto'}}>
-      <Card className="mb-5 w-75 border-0" style={{margin: 'auto'}} >
+    <div className="container" style={{margin: 'auto', maxWidth: '1200px'}}>
+      <Card className="mb-5 border-0" style={{margin: 'auto', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center'}} >
         <div className="d-flex justify-content-center">
           {sectionJSON.map(sec => sec.section === dataSection ? <Card.Img key={sec.img} className='img w-75' src={sec.img} alt={sec.concept} /> : "")}
         </div>
-        <Card.Body>
-          <Card.Subtitle>
+        <div>
+        <Card.Body style={{width: '318px', margin: 'auto'}}>
+          <Card.Subtitle style={{color: 'blue'}}>
             {sectionJSON.map(sec => sec.section === dataSection ? sec.concept : "")}
           </Card.Subtitle>
           <Card.Title className="d-flex text-center">
@@ -31,6 +32,7 @@ export const BodyAppSection = ({ dataSection }) => {
             </ListGroup.Item>
           </div>
         </ListGroup>
+        </div>
         {/* <Card.Body>
           <Card.Link href="#">Card Link</Card.Link>
           <Card.Link href="#">Another Link</Card.Link>

@@ -162,6 +162,10 @@ code {
   background-color: black;
 }
 
+.row {
+  --bs-gutter-x: 0rem;
+}
+
 /* @MEDIAQUERIES */
 
 @media screen and (min-width: 300px) and (max-width: 479px){
@@ -169,6 +173,9 @@ code {
     content: url("https://i.imgur.com/QyyQAjn.jpg") !important;
   }
   .list-group-section {
+    display: none;
+  }
+  .carousel {
     display: none;
   }
 }
