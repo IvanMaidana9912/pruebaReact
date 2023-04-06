@@ -78,9 +78,9 @@ code {
   margin: auto;
 }
 
-/* .containerBody {
+.containerBody {
   min-height: 100vh;
-} */
+}
 
 #cardsSecundaries {
   color: white;

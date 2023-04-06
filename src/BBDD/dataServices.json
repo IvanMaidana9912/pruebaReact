@@ -1,19 +1,19 @@
 [
     {
-        "id": "0",
+        "id": "11",
         "title": "Departamento de Servicios Daikin",
         "detail": "¿Cómo podemos ayudarte?",
         "category": "services"
     },
     {
-        "id": "1",
+        "id": "12",
         "title": "Servicio de diagnóstico y reparación",
         "detail": "Cuando un equipo deja de funcionar es fundamental identificar a causa del problema para poder realizar una correcta reparación. Para ello, nuestro Dpto. de Servicios dispone de técnicos e ingenieros bien entrenados y experimentados que, utilizando herramientas especiales, realizan visitas de diagnóstico y de reparación de todas nuestras líneas (equipos residenciales, comerciales e industriales).",
         "img": "https://i.imgur.com/kG1xQSg.png",
         "category": "services"
     },
     {
-        "id": "2",
+        "id": "13",
         "title": "Servicio de mantenimiento",
         "detail": "Con el fin de garantizar el buen funcionamiento de los equipos y así poder maximizar su vida útil, es necesario aplicar en forma periódica ciertas rutinas de mantenimiento. De esta forma, nuestro Dpto. de Servicios ofrece diferentes modalidades de mantenimientos que se ajustan a las necesidades de cada usuario en particular.",
         "img": "https://i.imgur.com/EcJBVhE.png",
@@ -21,7 +21,7 @@
 
     },
     {
-        "id": "3",
+        "id": "14",
         "title": "Venta de repuestos",
         "detail": "Sabiendo lo importante que resulta tener un repuesto cuando se lo necesita, nuestro Dpto. de Servicios está ampliando su stock de partes. Con personal idóneo y experimentado, nuestro sector de repuestos atiende las consultas de distribuidores, instaladores, contratistas y usuarios finales.",
         "img": "https://i.imgur.com/gm8yJjF.png",
@@ -29,7 +29,7 @@
 
     },
     {
-        "id": "4",
+        "id": "15",
         "title": "Garantías",
         "detail": "Para hacer frente a los casos en los cuales un equipo falla dentro de su período de garantía, nuestro Dpto. de Servicios dispone de técnicos calificados para realizar un diagnóstico rápido y preciso.",
         "img": "https://i.imgur.com/TtcX8QA.png",

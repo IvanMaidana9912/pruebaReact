@@ -5,7 +5,7 @@ export const Item = ({ items }) => {
     return (
         <Link to={"/item/" + items.id} className="text-decoration-none text-dark">
             <div className="card border border-0 card-body text-center" id="itemContainer">
-                <img src={items.img[0]} width={200} alt={items.title} />
+                {items.img ? <img src={items.img[0]} width={200} alt={items.title} />: ""}
                 <div >
                     <p className="card-text" id="idCardTitle"><b>{items.title}</b></p>
                     <p className="card-text text-start" >{items.slogan}</p>
