@@ -127,8 +127,7 @@ code {
 }
 
 .footerImg:hover {
-  width: 80px;
-  height: 80px;
+  scale: 1.2;
 }
 
 .animationImgDetail {
@@ -140,7 +139,8 @@ code {
 }
 
 .animationImgDetail:active {
-  width: 50%;
+  width: 15%;
+  scale: 1.3;
   position: absolute;
   z-index: 1;
   border: 1px solid black;
@@ -155,9 +155,9 @@ code {
   color: #bf9a15;
 }
 
-/* .navColorLetter:nth-child(2) {
-  margin-right: 30px;
-} */
+.navColorLetter:last-child {
+  margin-right: 90px;
+}
 
 .navToggle {
   margin-right: 20px !important;
