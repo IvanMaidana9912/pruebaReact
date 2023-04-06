@@ -1,7 +1,4 @@
 export const Services = ({ items }) => {
-
-    const [aver] = items;
-    console.log(aver.category);
     return (
         <div className="row my-5">
             <div className="col-md-4 offset-md-3 text-center">
