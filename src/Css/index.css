@@ -155,9 +155,9 @@ code {
   color: #bf9a15;
 }
 
-.navColorLetter:last-child {
+/* .navColorLetter:last-child {
   margin-right: 90px;
-}
+} */
 
 .navToggle {
   margin-right: 20px !important;
