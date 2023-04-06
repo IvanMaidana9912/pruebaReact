@@ -4,7 +4,7 @@ import { Animation } from "./Animation/Animation"
 export const Footer = () => {
     return (
         <div className="w-100">
-            <div>< Animation /></div>
+            <div className="d-flex">< Animation /></div>
             <div className="p-4 row pt-3 bg-dark text-center text-white">
                 <div className="col">
                     <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 w-100 text-center p-5">
