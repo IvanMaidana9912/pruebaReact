@@ -1,5 +1,6 @@
 import { Services } from "./Services"
 import { ItemList } from "./ItemList"
+import { Error404 } from "../../Error/Error404"
 
 export const Derivations = (categoria) => {
 
@@ -9,5 +10,7 @@ export const Derivations = (categoria) => {
         return <ItemList items={categoria.categoria} />
     } else if (categoria.categoria[0].category === "comercial") {
         return <ItemList items={categoria.categoria} />
+    } else {
+        return <Error404 />
     }
 }
