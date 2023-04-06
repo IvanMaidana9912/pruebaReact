@@ -5,12 +5,12 @@ import ListGroup from 'react-bootstrap/ListGroup';
 export const BodyAppSection2 = ({ dataSection }) => {
   return (
     <>
-      <Card className="mb-5 border-0" style={{display: 'flex', flexDirection: 'row-reverse', flexWrap: 'wrap', justifyContent: "center"}}>
+      <Card className="border-02">
         <div className="">
           {sectionJSON.map(sec => sec.section === dataSection ? <Card.Img key={sec[0] + '-' + dataSection} className='img w-75' src={sec.img} alt='papa' /> : "")}
         </div>
         <div>
-          <Card.Body style={{width: '318px', margin: 'auto'}}>
+          <Card.Body >
             <Card.Subtitle style={{color: 'blue'}}>
               {sectionJSON.map(sec => sec.section === dataSection ? sec.concept : "")}
             </Card.Subtitle>
@@ -24,10 +24,10 @@ export const BodyAppSection2 = ({ dataSection }) => {
           <ListGroup className="list-group-flush list-group-section">
             <div className="d-flex justify-content-center">
               <ListGroup.Item className="border-0" style={{width: '300px'}}>
-                {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map(detail => <ul key={detail[0] + '-' + dataSection}><li><h3>{detail[0]}</h3></li><span>{detail[1]}</span></ul>) : "")}
+                {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map(detail => <ul key={detail[0] + '-' + dataSection}><li><h5>{detail[0]}</h5></li><span>{detail[1]}</span></ul>) : "")}
               </ListGroup.Item>
               <ListGroup.Item className="border-0" style={{width: '300px'}}>
-                {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map(detail => <ul key={detail[0] + '-' + dataSection}><li><h3>{detail[0]}</h3></li><span>{detail[1]}</span></ul>) : "")}
+                {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map(detail => <ul key={detail[0] + '-' + dataSection}><li><h5>{detail[0]}</h5></li><span>{detail[1]}</span></ul>) : "")}
               </ListGroup.Item>
           </div>
         </ListGroup>

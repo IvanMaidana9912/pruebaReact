@@ -21,6 +21,34 @@ code {
   justify-content: space-between;
 }
 
+.border-0 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.border-02 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.w-75 {
+  width: 100% !important;
+}
+
+.card-body {
+  display: flex;
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  flex-direction: column;
+}
+
 .classFooter div {
   display: flex;
   justify-content: center;
@@ -76,6 +104,11 @@ code {
 
 .container {
   margin: auto;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .containerBody {
@@ -128,7 +161,7 @@ code {
   margin-right: 30px;
 } */
 
-.navToggle{
+.navToggle {
   margin-right: 20px !important;
   width: 30px;
   height: 30px;
@@ -168,15 +201,59 @@ code {
 
 /* @MEDIAQUERIES */
 
-@media screen and (min-width: 300px) and (max-width: 479px){
+@media screen and (min-width: 300px) and (max-width: 479px) {
   #imageNav img {
     content: url("https://i.imgur.com/QyyQAjn.jpg") !important;
   }
+
   .list-group-section {
     display: none;
   }
+
   .carousel {
     display: none;
+  }
+
+  .d-flex {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .w-50 {
+    width: 100% !important;
+  }
+
+  .w-75 {
+    width: 100% !important;
+  }
+
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: 0px;
+    padding-left: 0px;
+
+  }
+
+  .card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-border-width: 1px;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* --bs-border-color-translucent: rgba(0, 0, 0, 0.175); */
+  }
+
+  .mb-3 {
+    margin-bottom: 0.5rem !important;
   }
 }
 

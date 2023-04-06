@@ -7,7 +7,6 @@ export const Carrousel = () => {
                 <div className="carousel-item active">
                     <img src={"https://i.imgur.com/M2qlyZX.jpg"} key={"carrousel"} className="d-block w-100" alt={"carousel"}></img>
                 </div>
-
                 {
                     dataCarrousel[0].carrousel ? dataCarrousel[0].carrousel.map((carr, index) => <div key={index} className="carousel-item"><img src={carr} key={index} className="d-block w-100" alt={"carousel"}></img></div>) : ""
                 }
