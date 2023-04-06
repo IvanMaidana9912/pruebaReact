@@ -1,4 +1,4 @@
-import sectionJSON from "../../../BBDD/bodySectionsData.json";
+import sectionJSON from "../../../BBDD/dataBodySection.json";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
