@@ -3,7 +3,6 @@ import { ItemList } from "./ItemList"
 import { Error404 } from "../../Error/Error404"
 
 export const Derivations = (categoria) => {
-    console.log(categoria.categoria.status);
     if (categoria.categoria.status === "ERROR") {
         return <Error404 />
     }

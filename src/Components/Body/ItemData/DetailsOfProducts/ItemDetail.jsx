@@ -1,8 +1,14 @@
 import { Images } from "../Images";
 import { TreeId } from "./TreeId/TreeId";
 import dataItemsJson from "../../../../BBDD/dataItems.json"
+import { Error404 } from "../../Error/Error404";
+
+
 
 export const ItemDetail = ({ items }) => {
+    if (items.status === "ERROR")  {
+        return <Error404 />
+    }
 
     return (
         <div className="card mb-3 pt-xl-5 w-100 containerBody">

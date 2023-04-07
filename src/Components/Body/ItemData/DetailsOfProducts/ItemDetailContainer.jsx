@@ -9,16 +9,33 @@ export const ItemDetailContainer = () => {
     const [loading, setLoading] = useState(true);
     const { id } = useParams();
 
+    let count = 0;
+
+    for (let i = 0; i < dataItemsJSON.length; i++) {
+        if (dataItemsJSON[i].id != undefined) {
+            count++;
+        }
+    }
+
     useEffect(() => {
-        const promesa = new Promise((resolve) => {
+        if (id <= count){
+
+            const promesa = new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve(dataItemsJSON.find(item => item.id === id));
+                }, 1900)
+            });
+            promesa.then((data) => {
+                setItem(data);
+                setLoading(false);
+            });
+        } else {
             setTimeout(() => {
-                resolve(dataItemsJSON.find(item => item.id === id));
+                setItem({"status":"ERROR"});
+                setLoading(false);
             }, 1900)
-        });
-        promesa.then((data) => {
-            setItem(data);
-            setLoading(false);
-        });
+        }
+
     }, [id]);
 
     return (
