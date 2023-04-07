@@ -205,7 +205,7 @@ background: linear-gradient(151deg, rgba(191,154,21,1) 49%, rgba(0,0,0,1) 100%);
 
 /* @MEDIAQUERIES */
 
-@media screen and (min-width: 300px) and (max-width: 479px) {
+@media screen and (min-width: 120px) and (max-width: 479px) {
   #imageNav img {
     content: url("https://i.imgur.com/QyyQAjn.jpg") !important;
   }
