@@ -86,7 +86,7 @@ color: white;
 }
 
 #itemContainer img {
-  width: 230px;
+  width: 100%;
 }
 
 
@@ -229,6 +229,11 @@ background: linear-gradient(151deg, rgba(191,154,21,1) 49%, rgba(0,0,0,1) 100%);
     align-items: center;
   }
 
+  
+  .cardquery{
+    flex-direction: column-reverse;
+  }
+
   .w-50 {
     width: 100% !important;
   }
@@ -272,9 +277,9 @@ background: linear-gradient(151deg, rgba(191,154,21,1) 49%, rgba(0,0,0,1) 100%);
     transition: 400ms;
   }
 
-#itemContainer img {
+/* #itemContainer img {
     width: 100%;
-  }
+  } */
 
   .navbar-brand {
     margin-right: 0px;

@@ -13,7 +13,7 @@ export const ItemDetail = ({ items }) => {
     return (
         <div className="card mb-3 pt-xl-5 w-100 containerBody">
             <div className="row g-0 d-flex flex-column align-content-center">
-                <div className="col-md-8 d-flex text-center justify-content-center align-items-center">
+                <div className="cardquery col-md-8 d-flex text-center justify-content-center align-items-center">
                     <div className="card-body">
                         <h5 className="card-title">{items.title}</h5>
                         <div className="d-flex text-center justify-content-center">
