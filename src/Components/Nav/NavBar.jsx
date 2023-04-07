@@ -7,7 +7,7 @@ export const NavBar = () => {
     return (
         <>
         <div className='nav-container'>
-            <Navbar bg="black" expand="lg" style={{ maxWidth: '90%', margin: 'auto'}} >
+            <Navbar bg="black" expand="lg" >
                 <Container className='navbar d-flex flex-nowrap'>
                     <Link className="navbar-brand" to={"/"}>
                         <img src={"https://i.imgur.com/xDoLQBr.jpg"} alt={"logo"} className="w-50" id="imageNav" />

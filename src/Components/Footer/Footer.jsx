@@ -21,7 +21,7 @@ export const Footer = () => {
                 <div className="mb-4 col d-flex flex-row text-end align-items-center justify-content-center">
                     <Link onClick={() => { window.open("https://web.whatsapp.com/", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="logo-whatsapp"></ion-icon></Link>
                     <Link onClick={() => { window.open("https://www.instagram.com/", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="logo-instagram"></ion-icon></Link>
-                    <Link onClick={() => { window.open("mailto:consulta@buenosairesvrv.com.ar", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="send-outline"></ion-icon></Link>
+                    <Link onClick={() => { window.open("mailto:consulta@buenosairesvrv.com.ar", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="mail-outline"></ion-icon></Link>
                 </div>
                 <div>
                     <div>
