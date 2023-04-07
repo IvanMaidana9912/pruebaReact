@@ -23,13 +23,18 @@ code {
 .border-02 {
   display: flex;
   flex-flow: row-reverse wrap;
-  align-items: center;
+align-items: center;
   flex-direction: row-reverse;
   justify-content: center;
 }
 
 .w-75 {
   width: 100% !important;
+}
+.btn{
+  background: rgb(191,154,21);
+background: linear-gradient(151deg, rgba(191,154,21,1) 49%, rgba(0,0,0,1) 100%);
+color: white;
 }
 
 .card-body {
