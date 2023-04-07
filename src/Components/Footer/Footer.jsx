@@ -25,7 +25,7 @@ export const Footer = () => {
                 </div>
                 <div>
                     <div>
-                        <p>© All Rights Reserved | Buenos Aires VRV</p>
+                        <p>© All Rights Reserved | Buenos Aires VRV 2023</p>
                         <p onClick={() => { window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley") }}> developers www.codecraze.com </p>
                     </div>
                 </div>
