@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Footer } from './Components/Footer/Footer';
+import { MapsFooter } from './Components/Footer/MapsFooter';
 import { ItemDetailContainer } from './Components/Body/ItemData/DetailsOfProducts/ItemDetailContainer';
 import { ItemListContainer } from './Components/Body/ItemData/ListProducts/ItemListContainer';
 import { Error404 } from "./Components/Body/Error/Error404";
@@ -16,9 +17,9 @@ export const App = () => {
             <Route exact path={"/"} element={< BodyApp />} />
             <Route exact path={"/categoria/:id"} element={<ItemListContainer />} />
             <Route exact path={"/item/:id"} element={<ItemDetailContainer />} />
-            
             <Route path={"*"} element={<Error404 />} />;
           </Routes>
+          {/* <MapsFooter /> */}
           <Footer />
       </div>
     </BrowserRouter>

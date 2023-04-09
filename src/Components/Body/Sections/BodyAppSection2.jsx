@@ -5,7 +5,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 export const BodyAppSection2 = ({ dataSection }) => {
   return (
     <>
-      <Card className="border-02">
+      <Card className="border-0">
         <div className="">
           {sectionJSON.map(sec => sec.section === dataSection ? <Card.Img key={sec[0] + '-' + dataSection} className='img w-75' src={sec.img} alt='papa' /> : "")}
         </div>
@@ -22,12 +22,12 @@ export const BodyAppSection2 = ({ dataSection }) => {
             </Card.Text>
           </Card.Body>
           <ListGroup className="list-group-flush list-group-section">
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center ">
               <ListGroup.Item className="border-0" style={{width: '300px'}}>
-                {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map(detail => <ul key={detail[0] + '-' + dataSection}><li><h5>{detail[0]}</h5></li><span>{detail[1]}</span></ul>) : "")}
+                {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map(detail => <ul className="flexList" key={detail[0] + '-' + dataSection}><li><h5>{detail[0]}</h5></li><span>{detail[1]}</span></ul>) : "")}
               </ListGroup.Item>
               <ListGroup.Item className="border-0" style={{width: '300px'}}>
-                {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map(detail => <ul key={detail[0] + '-' + dataSection}><li><h5>{detail[0]}</h5></li><span>{detail[1]}</span></ul>) : "")}
+                {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map(detail => <ul className="flexList" key={detail[0] + '-' + dataSection}><li><h5>{detail[0]}</h5></li><span>{detail[1]}</span></ul>) : "")}
               </ListGroup.Item>
           </div>
         </ListGroup>
