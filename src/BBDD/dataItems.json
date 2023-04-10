@@ -369,5 +369,8 @@
         "detail": "Para hacer frente a los casos en los cuales un equipo falla dentro de su período de garantía, nuestro Dpto. de Servicios dispone de técnicos calificados para realizar un diagnóstico rápido y preciso.",
         "img": "https://i.imgur.com/TtcX8QA.png",
         "category": "services"
+    },
+    {
+        "category": "trabajos"
     }
 ]

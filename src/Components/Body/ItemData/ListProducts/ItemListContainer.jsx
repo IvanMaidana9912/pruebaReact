@@ -11,7 +11,7 @@ export const ItemListContainer = () => {
     const { id } = useParams()
 
     useEffect(() => {
-        if (id === "services" || id === "comercial" || id === "residencial") {
+        if (id === "services" || id === "comercial" || id === "residencial" || id === "trabajos") {
             const promesa = new Promise((resolve) => {
                 setTimeout(() => {
                     resolve(id ? itemsJSON.filter(item => item.category === id) : itemsJSON)
