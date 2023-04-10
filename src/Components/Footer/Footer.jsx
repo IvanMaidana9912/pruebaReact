@@ -20,7 +20,7 @@ export const Footer = () => {
                 </div>
                 <div className="mb-4 col d-flex flex-row text-end align-items-center justify-content-center">
                     <Link onClick={() => { window.open("https://wa.me/c/5491150572065", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="logo-whatsapp"></ion-icon></Link>
-                    <Link onClick={() => { window.open("https://www.instagram.com/", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="logo-instagram"></ion-icon></Link>
+                    <Link onClick={() => { window.open("https://instagram.com/buenosairesvrv?igshid=ZDdkNTZiNTM=", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="logo-instagram"></ion-icon></Link>
                     <Link onClick={() => { window.open("mailto:consultas@buenosairesvrv.com.ar", '_blank') }} className="btn btn-outline-light btn-floating m-1"><ion-icon name="mail-outline"></ion-icon></Link>
                 </div>
                 <div>
