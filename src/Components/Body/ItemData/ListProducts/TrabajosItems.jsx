@@ -4,7 +4,7 @@ export const Trabajos = ({data}) => {
     const primeraLetraMayuscula = `${data[0].category[0].toUpperCase()}${data[0].category.slice(1)}`;
 
     return (
-        <div> 
+        <div className="TrabajosItems"> 
             {/* className="div-construccion" */}
             <h1 className="text-center">{primeraLetraMayuscula} realizados por BAVRV</h1>
             <img src={fotoConstruccion[0].construccion} alt="construccion" width={"1000px"}></img>

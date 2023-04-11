@@ -45,6 +45,10 @@ color: white;
   flex-direction: column;
 }
 
+.card-img{
+  max-width: 500px;
+}
+
 
 .classFooter {
   width: 90vw;
@@ -295,6 +299,6 @@ background: linear-gradient(151deg, rgba(191,154,21,1) 49%, rgba(0,0,0,1) 100%);
   .navbar-brand {
     margin-right: 0px;
 }
-
+  
   
 }
