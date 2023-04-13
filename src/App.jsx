@@ -11,7 +11,7 @@ import { NavBar } from './Components/Nav/NavBar';
 export const App = () => {
   return (
     <BrowserRouter>
-      <div className=''>
+      <div>
         <NavBar />
           <Routes>
             <Route exact path={"/"} element={< BodyApp />} />

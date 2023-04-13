@@ -23,18 +23,19 @@ code {
 .border-02 {
   display: flex;
   flex-flow: row-reverse wrap;
-align-items: center;
+  align-items: center;
   flex-direction: row-reverse;
   justify-content: center;
 }
 
-.w-75 {
+/* .w-75 {
   width: 100% !important;
-}
-.btn{
-  background: rgb(191,154,21);
-background: linear-gradient(151deg, rgba(191,154,21,1) 49%, rgba(0,0,0,1) 100%);
-color: white;
+} */
+
+.btn {
+  background: rgb(191, 154, 21);
+  background: linear-gradient(151deg, rgba(191, 154, 21, 1) 49%, rgba(0, 0, 0, 1) 100%);
+  color: white;
 }
 
 .card-body {
@@ -45,7 +46,7 @@ color: white;
   flex-direction: column;
 }
 
-.card-img{
+.card-img {
   max-width: 500px;
 }
 
@@ -80,7 +81,7 @@ color: white;
   top: 0;
   left: 0;
   z-index: -1;
-} 
+}
 
 #itemContainer {
   width: 230px;
@@ -125,8 +126,12 @@ color: white;
 }
 
 .containerBody {
-  min-height: 100vh;
+  margin-top: 10vh;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
 }
+
 
 #cardsSecundaries {
   color: white;
@@ -179,8 +184,8 @@ color: white;
   height: 30px;
   padding-top: 2px;
   padding-left: 4px;
-  background: rgb(191,154,21);
-background: linear-gradient(151deg, rgba(191,154,21,1) 49%, rgba(0,0,0,1) 100%);
+  background: rgb(191, 154, 21);
+  background: linear-gradient(151deg, rgba(191, 154, 21, 1) 49%, rgba(0, 0, 0, 1) 100%);
 }
 
 .navbar-toggler-icon {
@@ -208,15 +213,21 @@ background: linear-gradient(151deg, rgba(191,154,21,1) 49%, rgba(0,0,0,1) 100%);
   background-color: black;
 }
 
+
 .row {
   --bs-gutter-x: 0rem;
 }
 
-/* @MEDIAQUERIES */
+
+
+
+/* ///////////////////////////////////////// MEDIA QUIERIES//////////////////////////////////////////////////////////////// */
+
 @media screen and (min-width: 01px) and (max-width: 990px) {
-  .classFooter3{
+  .classFooter3 {
     display: none;
   }
+
   .flexList {
     display: flex;
     flex-direction: column;
@@ -243,9 +254,11 @@ background: linear-gradient(151deg, rgba(191,154,21,1) 49%, rgba(0,0,0,1) 100%);
     align-items: center;
   }
 
+  .animationImgDetail {
+    display: none;
+  }
 
-  
-  .cardquery{
+  .cardquery {
     flex-direction: column-reverse;
   }
 
@@ -281,24 +294,24 @@ background: linear-gradient(151deg, rgba(191,154,21,1) 49%, rgba(0,0,0,1) 100%);
     /* --bs-border-color-translucent: rgba(0, 0, 0, 0.175); */
   }
 
-.mb-3 {
+  .mb-3 {
     margin-bottom: 0.5rem !important;
   }
 
   #itemContainer {
     width: 100%;
-  height: 100%;
+    height: 100%;
     margin-top: 40px;
     transition: 400ms;
   }
 
-/* #itemContainer img {
+  /* #itemContainer img {
     width: 100%;
   } */
 
   .navbar-brand {
     margin-right: 0px;
-}
-  
-  
+  }
+
+
 }

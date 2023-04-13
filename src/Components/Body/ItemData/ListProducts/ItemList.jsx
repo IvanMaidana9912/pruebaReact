@@ -4,7 +4,7 @@ export const ItemList = ({ items }) => {
 
     const primeraLetraMayuscula = `${items[0].category[0].toUpperCase()}${items[0].category.slice(1)}`
     return (
-        <div>
+        <div className="container">
             <div>
                 {/* <p className="paraphStyle"><b>{primeraLetraMayuscula}</b></p> */}
             </div>

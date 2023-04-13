@@ -1,5 +1,6 @@
 // import fotoConstruccion from "../../../../BBDD/dataLogos.json"
 import json from "../../../../BBDD/dataimgtrabajos.json"
+import { Carrousel } from "../../Carrousel/Carrousel";
 
 export const Trabajos = ({ data }) => {
     const primeraLetraMayuscula = `${data[0].category[0].toUpperCase()}${data[0].category.slice(1)}`;
@@ -8,7 +9,12 @@ export const Trabajos = ({ data }) => {
 
     return (
         <div>
-            <h1 className="text-center">{primeraLetraMayuscula} realizados por BAVRV</h1>
+            <div>
+                <Carrousel />
+            </div>
+            <div>
+                <h1 className="text-center">{primeraLetraMayuscula} realizados por BAVRV</h1>
+            </div>
             <div className="d-flex flex-wrap mt-4 justify-content-center">
                 {
                     images ? images.map(image => <img alt={image} className="w-25 m-2" src={image} key={image}></img>) : ""

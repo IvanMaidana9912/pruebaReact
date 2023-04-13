@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+
 export const NavBar = () => {
     return (
         <>
@@ -15,7 +16,7 @@ export const NavBar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className='navToggle' />
                 </Container>
                 <Navbar.Collapse id="basic-navbar-nav"  style={{ justifyContent: 'flex-end'}} >
-                    <Nav style={{alignItems: 'center'}}>
+                    <Nav className='me-2' style={{alignItems: 'center'}}>
                         <Nav.Link key={'/category/residential'} as={Link} to={'/categoria/residencial'} className='navColorLetter'>
                             {'Residencial'}
                         </Nav.Link>

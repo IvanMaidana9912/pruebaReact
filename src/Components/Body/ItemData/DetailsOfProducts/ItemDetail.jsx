@@ -6,7 +6,7 @@ import { Error404 } from "../../Error/Error404";
 
 
 export const ItemDetail = ({ items }) => {
-    if (items.status === "ERROR")  {
+    if (items.status === "ERROR") {
         return <Error404 />
     }
 
@@ -33,11 +33,14 @@ export const ItemDetail = ({ items }) => {
                     </div>
                     <div className="col-md-4 mb-5 d-flex w-50 flex-column">
                         <img src={items.img[0]} className="img-fluid rounded-start mb-3" alt={items.titulo} />
-                        <Images itemImg={items} />
                     </div>
                 </div>
             </div>
+            <div className="col-md-4 d-flex w-75">
+                <Images itemImg={items} />
+            </div>
             <div>
+
                 {
                     dataItemsJson.map((dataitem, index) =>
                         dataitem.subId === items.id ? <div className="text-decoration-none" key={index}><TreeId identification={dataitem} /></div> : ""

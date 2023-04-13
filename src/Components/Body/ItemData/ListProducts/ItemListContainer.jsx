@@ -30,7 +30,7 @@ export const ItemListContainer = () => {
     }, [id]);
 
     return (
-        <div className="container">
+        <div >
             {loading ? <Loading /> : <Derivations categoria={items} />}
         </div>
     )
