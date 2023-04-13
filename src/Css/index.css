@@ -219,6 +219,17 @@ code {
 }
 
 
+.flex-jobs {
+
+max-width: 1440px;
+margin: auto;
+}
+
+.job-video {
+  display: flex;
+  margin: auto;
+  width: 75%;
+}
 
 
 /* ///////////////////////////////////////// MEDIA QUIERIES//////////////////////////////////////////////////////////////// */
