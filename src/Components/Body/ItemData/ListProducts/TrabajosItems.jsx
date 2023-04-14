@@ -16,7 +16,7 @@ export const Trabajos = ({ data }) => {
             </div>
             <div className="d-flex flex-wrap mt-4 justify-content-center flex-jobs">
                 {
-                    images ? images.map(image => <img alt={image} className="m-2" src={image} key={image}></img>) : ""
+                    images ? images.map(image => <img alt={image} className="m-2 zoomTrabajo" src={image} key={image}></img>) : ""
                 }
             </div>
             <div>

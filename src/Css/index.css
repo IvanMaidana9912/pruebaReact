@@ -247,11 +247,24 @@ code {
   --bs-gutter-x: 0rem;
 }
 
-
 .flex-jobs {
-
   max-width: 1440px;
   margin: auto;
+}
+
+.zoomTrabajo {
+  transition: 500ms;
+}
+
+.zoomTrabajo:hover {
+  cursor: zoom-in;
+}
+
+.zoomTrabajo:active {
+  transform: scale(1.5);
+  position: relative;
+  z-index: 1;
+  border: 1px solid black;
 }
 
 .job-video {
