@@ -13,11 +13,12 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color:rgb(191, 154, 21 , .5);
+  background-color: rgb(191, 154, 21, .5);
   border-radius: 15px;
 }
+
 body::-webkit-scrollbar-thumb:hover {
-  background-color:rgb(191, 154, 21);
+  background-color: rgb(191, 154, 21);
   border-radius: 15px;
   width: 7px;
 }
@@ -141,7 +142,7 @@ code {
 }
 
 .containerBody {
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   min-height: 50vh;
   display: flex;
   align-items: center;
@@ -236,13 +237,13 @@ code {
 
 .flex-jobs {
 
-max-width: 1440px;
-margin: auto;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .job-video {
-  display: flex;
-  margin: auto;
+  /* display: flex;
+  margin: auto; */
   width: 300px;
 }
 
