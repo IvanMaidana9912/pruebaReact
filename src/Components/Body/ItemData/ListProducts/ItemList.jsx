@@ -1,4 +1,5 @@
 import { Item } from "../Item";
+import { LogosMarcas } from "../../LogosMarcas/Logos";
 
 export const ItemList = ({ items }) => {
 
@@ -17,6 +18,7 @@ export const ItemList = ({ items }) => {
                     )
                 }
             </div>
+            <LogosMarcas />
         </div>
     );
 };
