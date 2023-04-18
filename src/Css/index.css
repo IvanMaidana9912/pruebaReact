@@ -57,15 +57,12 @@ code {
   justify-content: center;
 }
 
-/* .w-75 {
-  width: 100% !important;
-} */
-
 .btn {
   background: rgb(191, 154, 21);
   background: linear-gradient(151deg, rgba(191, 154, 21, 1) 49%, rgba(0, 0, 0, 1) 100%);
   color: white;
 }
+
 .btn:hover {
   color: rgba(0, 0, 0, 1);
 }
@@ -81,7 +78,6 @@ code {
 .card-img {
   max-width: 500px;
 }
-
 
 .classFooter {
   width: 90vw;
@@ -103,7 +99,7 @@ code {
 }
 
 .classFooter3 {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .classFooter1 {
@@ -125,7 +121,6 @@ code {
 #itemContainer img {
   width: 100%;
 }
-
 
 #itemContainer:hover {
   box-shadow: inset -33px -33px 100px -29px #1184f7;
@@ -154,11 +149,9 @@ code {
   margin: auto;
   justify-content: center;
   align-items: center;
-
 }
 
 .containerBody {
-  /* margin-top: 10vh; */
   min-height: 50vh;
   display: flex;
   align-items: center;
@@ -206,10 +199,6 @@ code {
   color: #bf9a15;
 }
 
-/* .navColorLetter:last-child {
-  margin-right: 90px;
-} */
-
 .navToggle {
   width: 30px;
   height: 30px;
@@ -223,13 +212,8 @@ code {
   width: 19px;
   height: 19px;
   padding-right: 2px;
-  /* background-color: white; */
   border-radius: 5px;
 }
-
-/* .navColorLetter:active {
-  color: #bf9a15;
-} */
 
 .navColorLogo {
   background-color: #000000;
@@ -243,7 +227,6 @@ code {
   margin: auto;
   background-color: black;
 }
-
 
 .row {
   --bs-gutter-x: 0rem;
@@ -275,7 +258,6 @@ code {
   width: 300px;
 }
 
-
 /* ///////////////////////////////////////// MEDIA QUIERIES//////////////////////////////////////////////////////////////// */
 
 @media screen and (min-width: 01px) and (max-width: 990px) {
@@ -287,12 +269,11 @@ code {
     display: flex;
     flex-direction: column;
   }
-
 }
 
 @media screen and (min-width: 120px) and (max-width: 479px) {
-  #imageNav img {
-    content: url("https://i.imgur.com/QyyQAjn.jpg") !important;
+  #imageNav {
+    content: url("https://i.imgur.com/yvDUWzB.jpg") !important;
   }
 
   .list-group-section {
@@ -334,7 +315,6 @@ code {
   .container-xxl {
     padding-right: 0px;
     padding-left: 0px;
-
   }
 
   .card {
@@ -346,7 +326,6 @@ code {
     position: relative;
     display: flex;
     flex-direction: column;
-    /* --bs-border-color-translucent: rgba(0, 0, 0, 0.175); */
   }
 
   .mb-3 {
@@ -360,13 +339,11 @@ code {
     transition: 400ms;
   }
 
-  /* #itemContainer img {
-    width: 100%;
-  } */
-
   .navbar-brand {
     margin-right: 0px;
   }
 
-
+  .logosmarginabajo {
+    margin-bottom: 40px;
+  }
 }

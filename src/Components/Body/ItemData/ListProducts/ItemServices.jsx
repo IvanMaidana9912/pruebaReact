@@ -1,7 +1,7 @@
 export const ItemServices = ({ send }) => {
     return (
         <div>
-            <div className="card mb-3 d-flex w-75" >
+            <div className="card mb-3 d-flex w-75 border-0" >
                 <div className="d-flex flex-row align-items-center">
                     <div className="col">
                         {send.img ? <img src={send.img} key={send.img} className="img-fluid" alt={send.title} /> : ""}

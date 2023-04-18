@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 
 export const Item = ({ items }) => {
-    // const confirm = parseInt(items.id) <= 10  ? "/item/" + items.id : "/item/ "
     return (
         <Link to={"/item/" + items.id} className="text-decoration-none text-dark">
-            <div className="card border border-0 card-body text-center" id="itemContainer">
+            <div className="card border border-0 card-body text-center me-5" id="itemContainer">
                 {items.img ? <img src={items.img[0]} alt={items.title} />: ""}
                 <div >
                     <p className="card-text" id="idCardTitle"><b>{items.title}</b></p>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Animation } from "./Animation/Animation"
+// import { MapsFooter } from "./MapsFooter.jsx";
 
 export const Footer = () => {
     return (
@@ -8,10 +9,11 @@ export const Footer = () => {
             <div className="p-4 row pt-3 bg-dark text-center text-white">
                 <div className="col mt-5">
                     <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 w-100 text-center p-5">
-                        <p><i><ion-icon name="map-outline"></ion-icon> Buenos Aires, Argentina</i></p>
+                        <p><i><ion-icon name="map-outline"></ion-icon> Quilmes, Buenos Aires, Argentina</i></p>
+                        {/* <MapsFooter /> */}
                     </div>
                 </div>
-                <div className="col d-flex justify-content-center align-items-center mb-5">
+                <div className="col d-flex justify-content-center align-items-center mb-5 mt-5">
                     <Link to={"/"}>
                         <img className="footerImg" onClick={() => { console.log("NO ME TOQUES SR. DAIVID!! AHHH!!!") }} src="https://i.imgur.com/FfB5Z41.jpg" width={100} height={100} alt="photo"></img>
                     </Link>
