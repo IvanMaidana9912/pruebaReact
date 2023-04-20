@@ -23,11 +23,11 @@ export const BodyAppSection = ({ dataSection }) => {
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush list-group-section">
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-start">
             <ListGroup.Item className="border-0">
-              {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => <li key={index}>{detail}</li>) : "")}
+              {sectionJSON.map(sec => sec.section === dataSection ? sec.details[0].map((detail, index) => <li className="w-100" key={index}>{detail}</li>) : "")}
             </ListGroup.Item>
-            <ListGroup.Item className="border-0">
+            <ListGroup.Item className="border-0 d-flex align-items-start">
               {sectionJSON.map(sec => sec.section === dataSection ? sec.details[1].map((detail, index) => <li key={index}>{detail}</li>) : "")}
             </ListGroup.Item>
           </div>
