@@ -272,9 +272,9 @@ code {
 }
 
 @media screen and (min-width: 120px) and (max-width: 479px) {
-  #imageNav {
+/*   #imageNav {
     content: url("https://i.imgur.com/yvDUWzB.jpg") !important;
-  }
+  } */
 
   .list-group-section {
     display: none;
