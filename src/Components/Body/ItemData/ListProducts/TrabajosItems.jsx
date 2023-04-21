@@ -15,14 +15,14 @@ export const Trabajos = ({ data }) => {
             <div>
                 <h1 className="text-center">{primeraLetraMayuscula} realizados con nosotros</h1>
             </div>
-            <div className="d-flex flex-wrap mt-4 justify-content-center flex-jobs">
+            <div className="d-flex flex-wrap mt-4 justify-content-start flex-jobs">
                 {
                     images ? images.map(image => <img alt={image} className="m-2 zoomTrabajo" src={image} key={image}></img>) : ""
                 }
             </div>
             <div className="d-flex flex-wrap mt-4 justify-content-start flex-jobs">
                 {
-                    videos ? videos.map(vid =>  <video className="job-video d-flex m-auto" key={vid} src={vid} preload="auto" controls></video>)  : ""
+                    videos ? videos.map(vid =>  <video className="job-video d-flex m-auto mb-4" key={vid} src={vid} preload="auto" controls></video>)  : ""
                 }
             </div>
         </div>
