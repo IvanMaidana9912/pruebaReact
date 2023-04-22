@@ -38,7 +38,7 @@ code {
 
 .gmap_canvas {
   overflow: hidden;
-  background: none !important;
+background: none !important;
   height: 100%;
   width: 100%;
 }
